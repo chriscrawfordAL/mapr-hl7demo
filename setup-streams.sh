@@ -14,4 +14,10 @@ sudo apt-get install gcc -y
 echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/mapr/lib" >> /home/mapr/.bashrc
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/mapr/lib
+
+#If you need to install PIP
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+
+#Install MapR Streams for Python
 sudo pip install --global-option=build_ext --global-option="--library-dirs=/opt/mapr/lib" --global-option="--include-dirs=/opt/mapr/include/" mapr-streams-python

@@ -8,7 +8,7 @@ from hl7_to_dict import hl7_str_to_dict
 p = Producer({'streams.producer.default.stream': '/hl7stream'})
 
 str_msg=''
-with open("input.txt") as f:
+with open("HL7_Records.txt") as f:
     for line in f:
         if line!='\n':
             str_msg=str_msg+line
