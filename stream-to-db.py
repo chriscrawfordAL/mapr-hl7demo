@@ -42,7 +42,6 @@ while running:
     else:
         print(msg)
 
-
     if not msg.error():
         # msg.value is the raw string - if we assume it's in json, that's cool, we can do a json.loads and manipulate
         # We can grab the "pid" object from the full json - that is the patient info
@@ -51,7 +50,7 @@ while running:
         #Debug
         print("JSON MSG:")
         print(msg_json)
-	    
+
         # Test to see if patient_identifier_list is actually a list or a string and create hashId for db insert
         if isinstance(msg_json['patient_identifier_list'], (list,)):
             pidlist = msg_json['patient_identifier_list'][0]['id_number']['st']
@@ -62,7 +61,7 @@ while running:
 
         # Create OJAI document and insert it into the database using a single ID
         msg_json = json.loads(msg.value())
-    	d = connection.new_document(dictionary=msg_json)
+        d = connection.new_document(dictionary=msg_json)
 
         # Insert or Replace Document
         document_store.insert_or_replace(doc=d, _id=hashId)
