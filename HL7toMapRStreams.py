@@ -16,6 +16,7 @@ with open("HL7_records.txt") as f:
             #print(str_msg)
             d = hl7_str_to_dict(str_msg)
             print json.dumps(d)
+            print ("\n\n")
             json_hl7 = json.dumps(d)
 
             #ORIG:  I think this is wrong: p.produce('topic1', str_msg)
@@ -23,4 +24,4 @@ with open("HL7_records.txt") as f:
             # Or - just do a json.dumps(your_json) instead of str_msg
             p.flush()
             str_msg=''
-            time.sleep(10)
+            time.sleep(5)
