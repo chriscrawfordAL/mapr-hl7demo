@@ -2,9 +2,7 @@ import json
 import os
 
 #set up
-#os.environ['LD_LIBRARY_PATH'] = "$LD_LIBRARY_PATH:/opt/mapr/lib"
-#for mac
-os.environ['DYLD_LIBRARY_PATH'] = "/opt/mapr/lib"
+os.environ['LD_LIBRARY_PATH'] = "$LD_LIBRARY_PATH:/opt/mapr/lib"
 
 # MapR-DB DAG client libs:
 from mapr.ojai.ojai_query.QueryOp import QueryOp
@@ -40,10 +38,20 @@ while running:
         print("No messages on queue...sleeping")
         continue
     else:
+        print(msg)
+
+    if not msg.error():
         msg_json = json.loads(msg.value())['msh']
         if 'message_type' in msg_json:
+            print(msg_json)
             if msg_json['message_type']['message_code']['id'] == "ADT":
                 print("Writing to ADT Document Store")
                 event = msg_json['message_type']['trigger_event']['id']
-                document_store.insert_or_replace(d=msg_json, _id=event)
+                facility = msg_json['sending_facility']['namespace_id']['is']
+                document_store.insert_or_replace(doc=msg_json, _id=facility)
+        elif msg.error().code() != KafkaError._PARTITION_EOF:
+            print(msg.error())
+            running = False
+
+c.close()
 
