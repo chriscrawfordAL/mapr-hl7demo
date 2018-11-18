@@ -10,6 +10,7 @@ maprcli stream topic create -path /hl7stream -topic adt_topic -partitions 3
 
 
 #Install and configure the python streams client
+sudo apt-get install libssl-dev
 sudo apt-get install gcc -y
 
 echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/mapr/lib" >> /home/mapr/.bashrc
