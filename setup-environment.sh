@@ -1,7 +1,14 @@
 #! /bin/bash
 
+set -x
+set -e
+
 #set up streams demo bits
 #Run this on the edge node as user mapr
+
+#setup PIP
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sudo python get-pip.py
 
 #create stream and topic
 maprcli stream create -path /hl7stream -produceperm p -consumeperm p -topicperm p
@@ -10,11 +17,12 @@ maprcli stream topic create -path /hl7stream -topic adt_topic -partitions 3
 
 
 #Install and configure the python streams client
-sudo apt-get install gcc -y
+sudo yum install gcc -y
 
 echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/mapr/lib" >> /home/mapr/.bashrc
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/mapr/lib
+sudo yum install -y python-devel
 sudo pip install --global-option=build_ext --global-option="--library-dirs=/opt/mapr/lib" --global-option="--include-dirs=/opt/mapr/include/" mapr-streams-python
 sudo pip install maprdb-python-client
 sudo pip install hl7apy
