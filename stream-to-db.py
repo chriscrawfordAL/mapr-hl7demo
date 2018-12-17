@@ -16,7 +16,7 @@ os.environ['LD_LIBRARY_PATH'] = "$LD_LIBRARY_PATH:/opt/mapr/lib"
 host = raw_input("DAG host:")
 username = "mapr"
 password = "maprmapr18"
-tbl_path = "/hl7table"
+tbl_path = "/demos/hl7demo/hl7table"
 
 connection_str = "{}:5678?auth=basic;user={};password={};ssl=true;sslCA=/opt/mapr/conf/ssl_truststore.pem;sslTargetNameOverride={}".format(host,username,password,host)
 connection = ConnectionFactory.get_connection(connection_str=connection_str)
@@ -30,7 +30,7 @@ else:
 # Create the Kakfa Consumer
 c = Consumer({'group.id': 'mygroup',
               'default.topic.config': {'auto.offset.reset': 'earliest'}})
-c.subscribe(['/hl7stream:topic1'])
+c.subscribe(['/demos/hl7demo/hl7stream:allMessages'])
 
 #  Wait for new messages to be produced to the stream
 running = True

@@ -13,10 +13,12 @@ from confluent_kafka import Consumer, KafkaError
 # Create a connection to the mapr-db:
 host = raw_input("DAG host:")
 username = "mapr"
-password = "maprmapr"
-tbl_path = "/adt_table"
+password = "maprmapr18"
+tbl_path = "/demos/hl7demo/adt_table"
 
-connection_str = "{}:5678?auth=basic;user={};password={};ssl=false".format(host,username,password)
+#Unsecure system connection
+#connection_str = "{}:5678?auth=basic;user={};password={};ssl=false".format(host,username,password)
+connection_str = "{}:5678?auth=basic;user={};password={};ssl=true;sslCA=/opt/mapr/conf/ssl_truststore.pem;sslTargetNameOverride={}".format(host,username,password,host)
 connection = ConnectionFactory.get_connection(connection_str=connection_str)
 
 # Get a store and assign it as a DocumentStore object
@@ -28,7 +30,7 @@ else:
 # Create the Kakfa Consumer
 c = Consumer({'group.id': 'mygroup',
               'default.topic.config': {'auto.offset.reset': 'earliest'}})
-c.subscribe(['/hl7stream:adt_topic'])
+c.subscribe(['/demos/hl7demo/hl7stream:adt_topic'])
 
 #  Wait for new messages to be produced to the stream
 running = True

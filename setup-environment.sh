@@ -6,14 +6,18 @@ set -e
 #set up streams demo bits
 #Run this on the edge node as user mapr
 
+hadoop fs -mkdir /demos
+hadoop fs -mkdir /demos/hl7demo
+hadoop fs -put out.json /demos/hl7demo
+
 #setup PIP
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python get-pip.py
 
 #create stream and topic
-maprcli stream create -path /hl7stream -produceperm p -consumeperm p -topicperm p
-maprcli stream topic create -path /hl7stream -topic topic1 -partitions 3
-maprcli stream topic create -path /hl7stream -topic adt_topic -partitions 3
+maprcli stream create -path /demos/hl7demo/hl7stream -produceperm p -consumeperm p -topicperm p
+maprcli stream topic create -path /demos/hl7demo/hl7stream -topic allMessages -partitions 1
+maprcli stream topic create -path /demos/hl7demo/hl7stream -topic adt_topic -partitions 1
 
 
 #Install and configure the python streams client
@@ -29,4 +33,4 @@ sudo pip install hl7apy
 
 # create database tables
 # User Table:
-maprcli table create -path /hl7table -tabletype json
+maprcli table create -path /demos/hl7demo/hl7table -tabletype json
