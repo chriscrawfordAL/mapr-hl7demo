@@ -8,7 +8,7 @@ set -e
 
 hadoop fs -mkdir /demos
 hadoop fs -mkdir /demos/hl7demo
-hadoop fs -put out.json /demos/hl7demo
+hadoop fs -put hl7_out/demos/hl7demo
 
 #setup PIP
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
