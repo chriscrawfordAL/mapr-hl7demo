@@ -53,11 +53,19 @@ while running:
 
         # Test to see if patient_identifier_list is actually a list or a string and create hashId for db insert
         if isinstance(msg_json['patient_identifier_list'], (list,)):
-            pidlist = msg_json['patient_identifier_list'][0]['id_number']['st']
-            hashId=hashlib.sha224(pidlist).hexdigest()
+            if 'id_number' in msg_json:
+                pidlist = msg_json['patient_identifier_list'][0]['id_number']['st']
+                hashId=hashlib.sha224(pidlist).hexdigest()
+            else:
+                pidlist = msg_json['patient_identifier_list'][0]['id']['st']
+                hashId=hashlib.sha224(pidlist).hexdigest()
         else:
-            pidlist = msg_json['patient_identifier_list']['id_number']['st']
-            hashId=hashlib.sha224(pidlist).hexdigest()
+            if 'id_number' in msg_json:
+                pidlist = msg_json['patient_identifier_list']['id_number']['st']
+                hashId=hashlib.sha224(pidlist).hexdigest()
+            else:
+                pidlist = msg_json['patient_identifier_list']['id']['st']
+                hashId=hashlib.sha224(pidlist).hexdigest()
 
         # Create OJAI document and insert it into the database using a single ID
         msg_json = json.loads(msg.value())

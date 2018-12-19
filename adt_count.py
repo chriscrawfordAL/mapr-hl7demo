@@ -46,14 +46,20 @@ while running:
         msg_json = json.loads(msg.value())['msh']
         if 'message_type' in msg_json:
             print(msg_json)
-            if msg_json['message_type']['message_code']['id'] == "ADT":
-                print("Writing to ADT Document Store")
-                event = msg_json['message_type']['trigger_event']['id']
-                facility = msg_json['sending_facility']['namespace_id']['is']
-                document_store.insert_or_replace(doc=msg_json, _id=facility)
-        elif msg.error().code() != KafkaError._PARTITION_EOF:
-            print(msg.error())
-            running = False
+            if 'message_code' in msg_json:
+                if msg_json['message_type']['message_code']['id'] == "ADT":
+                    print("Writing to ADT Document Store")
+                    event = msg_json['message_type']['trigger_event']['id']
+                    facility = msg_json['sending_facility']['namespace_id']['is']
+                    document_store.insert_or_replace(doc=msg_json, _id=facility)
+                if msg_json['message_type']['message_type']['id'] == "ADT":
+                    print("Writing to ADT Document Store")
+                    event = msg_json['message_type']['trigger_event']['id']
+                    facility = msg_json['sending_facility']['namespace_id']['is']
+                    document_store.insert_or_replace(doc=msg_json, _id=facility)
+            #elif msg.error().code() != KafkaError._PARTITION_EOF:
+            #    print(msg.error())
+            #    running = False
 
 c.close()
 
