@@ -53,11 +53,11 @@ while running:
                 document_store.insert_or_replace(doc=msg_json, _id=facility)
         elif 'message_type' in msg_json['message_type']:
             print(msg_json)
-            if msg_json['message_type']['message_type']['id'] == "ADT":
+            if msg_json['message_type']['message_type']['id'] == 'ADT':
                 print("Writing message_type.message_type to ADT Document Store")
                 event = msg_json['message_type']['trigger_event']['id']
-                facility = msg_json['sending_facility']['namespace_id']['is']
-                document_store.insert_or_replace(doc=msg_json, _id=facility)
+                msg_control = msg_json['message_control_id']['st']['st']
+                document_store.insert_or_replace(doc=msg_json, _id=msg_control)
         elif msg.error().code() != KafkaError._PARTITION_EOF:
             print(msg.error())
             running = False
