@@ -44,22 +44,23 @@ while running:
 
     if not msg.error():
         msg_json = json.loads(msg.value())['msh']
-        if 'message_type' in msg_json:
+        if 'message_code' in msg_json['message_type']:
             print(msg_json)
-            if 'message_code' in msg_json:
-                if msg_json['message_type']['message_code']['id'] == "ADT":
-                    print("Writing to ADT Document Store")
-                    event = msg_json['message_type']['trigger_event']['id']
-                    facility = msg_json['sending_facility']['namespace_id']['is']
-                    document_store.insert_or_replace(doc=msg_json, _id=facility)
-                if msg_json['message_type']['message_type']['id'] == "ADT":
-                    print("Writing to ADT Document Store")
-                    event = msg_json['message_type']['trigger_event']['id']
-                    facility = msg_json['sending_facility']['namespace_id']['is']
-                    document_store.insert_or_replace(doc=msg_json, _id=facility)
-            #elif msg.error().code() != KafkaError._PARTITION_EOF:
-            #    print(msg.error())
-            #    running = False
+            if msg_json['message_type']['message_code']['id'] == "ADT":
+                print("Writing message_type.message_code to ADT Document Store")
+                event = msg_json['message_type']['trigger_event']['id']
+                facility = msg_json['sending_facility']['namespace_id']['is']
+                document_store.insert_or_replace(doc=msg_json, _id=facility)
+        elif 'message_type' in msg_json['message_type']:
+            print(msg_json)
+            if msg_json['message_type']['message_type']['id'] == "ADT":
+                print("Writing message_type.message_type to ADT Document Store")
+                event = msg_json['message_type']['trigger_event']['id']
+                facility = msg_json['sending_facility']['namespace_id']['is']
+                document_store.insert_or_replace(doc=msg_json, _id=facility)
+        elif msg.error().code() != KafkaError._PARTITION_EOF:
+            print(msg.error())
+            running = False
 
 c.close()
 

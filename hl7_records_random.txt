@@ -10,6 +10,12 @@ OBX|2|CE|30956-7^vaccine type^LN|2|88^Influenza, unspecified formulation^CVX||||
 OBX|3|TS|29768-9^Date vaccine information statement published^LN|2|20120702||||||F
 OBX|4|TS|29769-7^Date vaccine information statement presented^LN|2|20120814||||||F
 
+MSH|^~\&|G|G|G|G|20100803080800||ADT^A04^ADT_A02|MSG.51|D|2.4
+EVN||20040328134602.1234+0600||02
+PID|1||A74322~A74327~A74325||Johnson&la&&&Hessinger^Wesley^Ellie^PhD||20040328134602.1234+0600|U|||890 South Street&First Field Road&346^^Corolla^VT^90210^KGZ||834-5473^^^sam444@gmail.com~(972)765-1994~(972)765-1994~(972)666-1992x6444C Press 2^^^sandy.snow@amtech.org~(240)765-1455~(214)444-5473|||||A74332||MD200-5783-978-333^G^20060412
+PV1|1|P|G^G^G^^^N^G^G|L|||873473^Parker^Walter~bschw^Reynolds^David|M73244^Clemmons^Simon||||||||||G|A74328|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|987.00|139.47|3897.00|43824.12
+ZEN|0001|2006|G|G|||||G|19520408|200510||G
+
 MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||VXU^V04^VXU_V04|NIST-IZ-002.00|P|2.5.1|||AL|ER
 PID|1||D26376281^^^NIST MPI^MR||Marsh^Tierney^Beacher^^^^L|Lucas^Morgan|20100814|M||2076-8^Native Hawaiian or Other Pacific Islander^HL70005|10 Huntington Rd^^Brockton^MA^16080^USA^L||^PRN^PH^^^379^5559369|||||||||2186-5^non Hispanic or Latino^CDCREC
 PD1|||||||||||02^Reminder/Recall - any method^HL70215|||||A|20120701|20120701
@@ -659,12 +665,6 @@ EVN||20040328134602.1234+0600||02
 PID|1||A74324~A74321||Simmons&de&Van&Von&Little^Alex^^II^^^R||20040328134602.1234+0600|A|||3 Traveler Court&Gatehouse Road^^Germantown^IL^15857^CCK||(972)666-1992x6444C Press 2^^^richard.lang@alpha.net~(240)222-1212^^^MaryKay8432@nist.gov~(301)392-6372^^^johnG@gmail.com~693-3432^^^albert.livingston@cmucollege.edu~(301)444-5473B951^^^cookingwithsue@homecoking.com~(412)221-7218~233-4422~(972)765-1994^^^jay@yahoo.com~693-3432^^^linda@showroom.com|||||A74333||HI253509^G^20060412
 PV1|1|N|G^G^G^CANPE^^D^G^G|N|||bschw^Beltran^David|cluce^Jones^Simon||||||||||G|A74322|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|97.98|3897.00||37.00
 ZEN|0001|19520408|G|G||||||200510|19520408||G
-
-MSH|^~\&|G|G|G|G|20100803080800||ADT^A04^ADT_A02|MSG.51|D|2.4
-EVN||20040328134602.1234+0600||02
-PID|1||A74322~A74327~A74325||Johnson&la&&&Hessinger^Wesley^Ellie^PhD||20040328134602.1234+0600|U|||890 South Street&First Field Road&346^^Corolla^VT^90210^KGZ||834-5473^^^sam444@gmail.com~(972)765-1994~(972)765-1994~(972)666-1992x6444C Press 2^^^sandy.snow@amtech.org~(240)765-1455~(214)444-5473|||||A74332||MD200-5783-978-333^G^20060412
-PV1|1|P|G^G^G^^^N^G^G|L|||873473^Parker^Walter~bschw^Reynolds^David|M73244^Clemmons^Simon||||||||||G|A74328|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|987.00|139.47|3897.00|43824.12
-ZEN|0001|2006|G|G|||||G|19520408|200510||G
 
 MSH|^~\&|G|G|G|G|20091217051200||ADT^A04^ADT_A01|MSG.52|D|2.4
 EVN||20040328134602.1234+0600||02
