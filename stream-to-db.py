@@ -15,10 +15,10 @@ os.environ['LD_LIBRARY_PATH'] = "$LD_LIBRARY_PATH:/opt/mapr/lib"
 # Create a connection to the mapr-db:
 host = raw_input("DAG host:")
 username = "mapr"
-password = "maprmapr18"
+password = "maprmapr"
 tbl_path = "/demos/hl7demo/hl7table"
 
-connection_str = "{}:5678?auth=basic;user={};password={};ssl=true;sslCA=/opt/mapr/conf/ssl_truststore.pem;sslTargetNameOverride={}".format(host,username,password,host)
+connection_str = "{}:5678?auth=basic;user={};password={};ssl=false".format(host,username,password)
 connection = ConnectionFactory.get_connection(connection_str=connection_str)
 
 # Get a store and assign it as a DocumentStore object
@@ -53,17 +53,17 @@ while running:
 
         # Test to see if patient_identifier_list is actually a list or a string and create hashId for db insert
         if isinstance(msg_json['patient_identifier_list'], (list,)):
-            if 'id_number' in msg_json:
+            if 'id_number' in msg_json['patient_identifier_list'][0]:
                 pidlist = msg_json['patient_identifier_list'][0]['id_number']['st']
                 hashId=hashlib.sha224(pidlist).hexdigest()
-            else:
+            elif 'id' in msg_json['patient_identifier_list'][0]:
                 pidlist = msg_json['patient_identifier_list'][0]['id']['st']
                 hashId=hashlib.sha224(pidlist).hexdigest()
         else:
-            if 'id_number' in msg_json:
+            if 'id_number' in msg_json['patient_identifier_list']:
                 pidlist = msg_json['patient_identifier_list']['id_number']['st']
                 hashId=hashlib.sha224(pidlist).hexdigest()
-            else:
+            elif 'id' in msg_json['patient_identififer_list']:
                 pidlist = msg_json['patient_identifier_list']['id']['st']
                 hashId=hashlib.sha224(pidlist).hexdigest()
 

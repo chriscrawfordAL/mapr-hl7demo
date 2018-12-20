@@ -13,12 +13,12 @@ from confluent_kafka import Consumer, KafkaError
 # Create a connection to the mapr-db:
 host = raw_input("DAG host:")
 username = "mapr"
-password = "maprmapr18"
+password = "maprmapr"
 tbl_path = "/demos/hl7demo/adt_table"
 
 #Unsecure system connection
-#connection_str = "{}:5678?auth=basic;user={};password={};ssl=false".format(host,username,password)
-connection_str = "{}:5678?auth=basic;user={};password={};ssl=true;sslCA=/opt/mapr/conf/ssl_truststore.pem;sslTargetNameOverride={}".format(host,username,password,host)
+connection_str = "{}:5678?auth=basic;user={};password={};ssl=false".format(host,username,password)
+#connection_str = "{}:5678?auth=basic;user={};password={};ssl=true;sslCA=/opt/mapr/conf/ssl_truststore.pem;sslTargetNameOverride={}".format(host,username,password,host)
 connection = ConnectionFactory.get_connection(connection_str=connection_str)
 
 # Get a store and assign it as a DocumentStore object
