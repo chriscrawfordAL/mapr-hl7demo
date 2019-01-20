@@ -15,10 +15,11 @@ os.environ['LD_LIBRARY_PATH'] = "$LD_LIBRARY_PATH:/opt/mapr/lib"
 # Create a connection to the mapr-db:
 host = raw_input("DAG host:")
 username = "mapr"
-password = "maprmapr"
+password = "maprmapr18"
 tbl_path = "/demos/hl7demo/hl7table"
 
-connection_str = "{}:5678?auth=basic;user={};password={};ssl=false".format(host,username,password)
+#connection_str = "{}:5678?auth=basic;user={};password={};ssl=false".format(host,username,password)
+connection_str = "{}:5678?auth=basic;user={};password={};ssl=true;sslCA=/opt/mapr/conf/ssl_truststore.pem;sslTargetNameOverride={}".format(host,username,password,host)
 connection = ConnectionFactory.get_connection(connection_str=connection_str)
 
 # Get a store and assign it as a DocumentStore object

@@ -2,3 +2,4 @@ venv/
 .idea
 get-pip.py
 *.pyc
+testing/
