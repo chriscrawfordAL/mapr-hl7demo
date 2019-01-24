@@ -6,7 +6,6 @@
   "dependencies": {
     "express": "^4.16.4",
     "node-maprdb": "^1.0.0",
-    "node-rdkafka": "^2.5.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
   },
