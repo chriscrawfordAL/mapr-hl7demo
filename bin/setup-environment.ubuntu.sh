@@ -12,7 +12,8 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/mapr/lib
 
 hadoop fs -mkdir /demos
 hadoop fs -mkdir /demos/hl7demo
-hadoop fs -put hl7_data.json /demos/hl7demo
+hadoop fs -mkdir /demos/hl7demo/d3
+hadoop fs -put ../datasets/hl7_data.json /demos/hl7demo
 
 #Installs
 sudo apt-get install gcc python-devel npm nodejs -y
