@@ -1,6 +1,7 @@
 import time
 import json
 
+# noinspection PyUnresolvedReferences
 from confluent_kafka import Producer
 from hl7_to_dict import hl7_str_to_dict
 
@@ -8,13 +9,15 @@ from hl7_to_dict import hl7_str_to_dict
 p = Producer({'streams.producer.default.stream': '/demos/hl7demo/hl7stream'})
 
 str_msg=''
-with open("hl7_records_random.txt") as f:
+with open("../datasets/hl7_records.txt") as f:
     for line in f:
         if line!='\n':
             str_msg=str_msg+line
         else:
             #print(str_msg)
             d = hl7_str_to_dict(str_msg)
+            #f = open("/Users/ccrawford/eclipse-workspace/demoJam/data/streamsOuput.json", "w")
+            #f.write(json.dumps(d));
             print json.dumps(d)
             print ("\n\n")
             json_hl7 = json.dumps(d)

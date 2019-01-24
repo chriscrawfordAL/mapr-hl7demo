@@ -1,0 +1,22 @@
+[
+    {
+        "_id": "MED_BAY_1",
+        "openBeds": 20
+    },
+    {
+        "_id": "MED_BAY_2",
+        "openBeds": 20
+    },
+    {
+        "_id": "MED_BAY_3",
+        "openBeds": 20
+    },
+    {
+        "_id": "MED_BAY_4",
+        "openBeds": 20
+    },
+    {
+        "_id": "MED_BAY_5",
+        "openBeds": 20
+    }
+]

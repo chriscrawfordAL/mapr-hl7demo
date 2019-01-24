@@ -1,4 +1,4 @@
-import sys, datetime, time, json, os, hashlib
+import sys, datetime, time, json, os, hashlib, requests
 
 os.environ['LD_LIBRARY_PATH'] = "$LD_LIBRARY_PATH:/opt/mapr/lib"
 # Since the above doesn't seem to work:
@@ -17,6 +17,17 @@ host = raw_input("DAG host:")
 username = "mapr"
 password = "maprmapr18"
 tbl_path = "/demos/hl7demo/hl7table"
+
+def incrementCount():
+    headers = {
+        'Content-Type': 'application/json',
+    }
+
+    data = '{"$increment":{"count":1}}'
+
+    requests.post(
+        'https://mapr02.wired.carnoustie:8243/api/v2/table/%2Fdemos%2Fhl7demo%2FtotalMsgCount/document/allMessages',
+        headers=headers, data=data, verify=False, auth=('mapr', 'maprmapr18'))
 
 #connection_str = "{}:5678?auth=basic;user={};password={};ssl=false".format(host,username,password)
 connection_str = "{}:5678?auth=basic;user={};password={};ssl=true;sslCA=/opt/mapr/conf/ssl_truststore.pem;sslTargetNameOverride={}".format(host,username,password,host)
@@ -75,6 +86,9 @@ while running:
         # Insert or Replace Document
         document_store.insert_or_replace(doc=d, _id=hashId)
         print("User record with ID {} successfully written to the table".format(hashId))
+
+        # Increment Document Processed Counter
+        incrementCount()
         time.sleep(5)
       
     elif msg.error().code() != KafkaError._PARTITION_EOF:

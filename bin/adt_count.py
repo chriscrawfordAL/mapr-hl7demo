@@ -1,5 +1,8 @@
 import json
 import os
+import requests
+import time
+import random
 
 #set up
 os.environ['LD_LIBRARY_PATH'] = "$LD_LIBRARY_PATH:/opt/mapr/lib"
@@ -16,6 +19,56 @@ username = "mapr"
 password = "maprmapr18"
 tbl_path = "/demos/hl7demo/adt_table"
 
+def incrementCount():
+    headers = {
+        'Content-Type': 'application/json',
+    }
+
+    data = '{"$increment":{"count":1}}'
+
+    requests.post(
+        'https://mapr02.wired.carnoustie:8243/api/v2/table/%2Fdemos%2Fhl7demo%2FtotalMsgCount/document/adtMessages',
+        headers=headers, data=data, verify=False, auth=('mapr', 'maprmapr18'))
+
+def update(location, crud):
+    headers = {
+        'Content-Type': 'application/json',
+    }
+
+    if location == 'MidWsUnvMC':
+        location = 'MED_BAY_1'
+    elif location == 'BgCtyChldrnUrgntCar':
+        location = 'MED_BAY_2'
+    elif location == 'LakeMichMC':
+        location = 'MED_BAY_3'
+    elif location == 'MidTwnUrgentC':
+        location = 'MED_BAY_4'
+    elif location == 'PacNWHosED':
+        location = 'MED_BAY_5'
+    elif location == 'SmvUrgentC':
+        location = 'MED_BAY_' + str(random.randint(1, 5))
+    elif location == 'SthrnMdwstMedCntr':
+        location = 'MED_BAY_' + str(random.randint(1, 5))
+    elif location == 'WstrnRgnlMedCntr':
+        location = 'MED_BAY_' + str(random.randint(1, 5))
+    else:
+        location = 'MED_BAY_' + str(random.randint(1, 5))
+
+    if crud == 'ADT_A01':
+        data = '{"$increment":{"openBeds":1}}'
+    elif crud == 'ADT_A02':
+        data = '{"$increment":{"openBeds":1}}'
+    elif crud == 'ADT_A03':
+        data = '{"$decrement":{"openBeds":1}}'
+    else:
+        return
+
+    requests.post(
+        'https://mapr02.wired.carnoustie:8243/api/v2/table/%2Fdemos%2Fhl7demo%2Fd3%2FbarChartCount/document/' + location,
+        headers=headers, data=data, verify=False, auth=('mapr', 'maprmapr18'))
+
+    incrementCount()
+
 #Unsecure system connection
 #connection_str = "{}:5678?auth=basic;user={};password={};ssl=false".format(host,username,password)
 connection_str = "{}:5678?auth=basic;user={};password={};ssl=true;sslCA=/opt/mapr/conf/ssl_truststore.pem;sslTargetNameOverride={}".format(host,username,password,host)
@@ -23,9 +76,9 @@ connection = ConnectionFactory.get_connection(connection_str=connection_str)
 
 # Get a store and assign it as a DocumentStore object
 if connection.is_store_exists(store_path=tbl_path):
-  document_store = connection.get_store(store_path=tbl_path)
+    document_store = connection.get_store(store_path=tbl_path)
 else:
-  document_store = connection.create_store(store_path=tbl_path)
+    document_store = connection.create_store(store_path=tbl_path)
 
 # Create the Kakfa Consumer
 c = Consumer({'group.id': 'mygroup',
@@ -48,19 +101,25 @@ while running:
             print(msg_json)
             if msg_json['message_type']['message_code']['id'] == "ADT":
                 print("Writing message_type.message_code to ADT Document Store")
-                event = msg_json['message_type']['trigger_event']['id']
+                #event = msg_json['message_type']['trigger_event']['id']
+                event = msg_json['message_type']['message_structure']['id']
                 facility = msg_json['sending_facility']['namespace_id']['is']
                 document_store.insert_or_replace(doc=msg_json, _id=facility)
+                update(facility, event)
         elif 'message_type' in msg_json['message_type']:
             print(msg_json)
             if msg_json['message_type']['message_type']['id'] == 'ADT':
                 print("Writing message_type.message_type to ADT Document Store")
-                event = msg_json['message_type']['trigger_event']['id']
+                #event = msg_json['message_type']['trigger_event']['id']
+                event = msg_json['message_type']['message_structure']['id']
                 msg_control = msg_json['message_control_id']['st']['st']
                 document_store.insert_or_replace(doc=msg_json, _id=msg_control)
+                update(msg_control, event)
         elif msg.error().code() != KafkaError._PARTITION_EOF:
             print(msg.error())
             running = False
 
+    time.sleep(5)
 c.close()
+
 

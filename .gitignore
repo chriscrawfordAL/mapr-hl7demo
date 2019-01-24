@@ -1,3 +1,10 @@
+node_modules/
+webserver/node_modules/
+package-lock.json
+*.ORIG
+*.WORKING
+datasets/*.ORIG
+datasets/*.WORKING
 venv/
 .idea
 get-pip.py
