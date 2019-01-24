@@ -17,7 +17,10 @@ hadoop fs -put datasets/hl7_data.json /demos/hl7demo
 
 #Installs
 curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
-sudo apt-get install gcc python-dev npm nodejs -y
+sudo apt-get update
+sudo apt-get install gcc make -y
+sudo apt-get install nodejs -y
+sudo npm install npm@latest -g
 
 #setup PIP
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
