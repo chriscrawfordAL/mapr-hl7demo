@@ -1,0 +1,12 @@
+node_modules/
+webserver/node_modules/
+dashboard/node_modules/
+*.ORIG
+*.WORKING
+datasets/*.ORIG
+datasets/*.WORKING
+venv/
+.idea
+get-pip.py
+*.pyc
+testing/

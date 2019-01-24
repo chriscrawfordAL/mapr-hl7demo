@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Kashyyyk Medical Outpost</title>
+</head>
+<body>
+<div class="container">
+    <div class="banner">
+        <h1>Kashyyyk Medical Outpost</h1>
+    </div>
+    <div class="canvas">
+
+    </div>
+
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="js/d3index.js"></script>
+
+
+    <div class="otherData">
+        
+        <div class="otherData-title">
+                Total Messages Processed
+        </div>
+
+        <div class="otherData-text" id="allMessagesCount">
+            <script type="module">
+
+                var inter = async function getMessagesCount() {
+                    const allMessagesCount = 'http://localhost:1337/allMessagesCount';
+                    try {
+                        const result = await fetch(`${allMessagesCount}`)
+                            .then(function(res) {
+                                return res.json();
+                            });
+                        //console.log(result);
+                        document.getElementById("allMessagesCount").innerHTML = result.count;
+                    } catch(error) {
+                        console.log(error);
+                        return 1;
+                    }
+                    return 0;
+                }
+                setInterval(inter, 5000);
+            </script>
+        </div>
+
+        <div class="otherData-title">
+                ADT Messages Processed
+        </div>
+
+        <div class="otherData-text" id="adtMessagesCount">
+                <script type="module">
+    
+                    var inter = async function getMessagesCount() {
+                        const allMessagesCount = 'http://localhost:1337/adtMessagesCount';
+                        try {
+                            const result = await fetch(`${allMessagesCount}`)
+                                .then(function(res) {
+                                    return res.json();
+                                });
+                            //console.log(result);
+                            document.getElementById("adtMessagesCount").innerHTML = result.count;
+                        } catch(error) {
+                            console.log(error);
+                            return 1;
+                        }
+                        return 0;
+                    }
+                    setInterval(inter, 5000);
+                </script>
+            </div>
+
+
+        <div class="otherData-title">
+                Wookie Attacks YTD
+            </div>
+            <div class="otherData-text">
+                7
+            </div>
+    
+            <div class="otherData-title">
+                    Kylo-Ren Tantrums
+            </div>
+            
+            <div class="otherData-text">
+                525
+            </div>
+    
+            <div class="otherData-title">
+                    @-@ vs. A-T A-T Arguments
+            </div>
+    
+            <div class="otherData-text">
+                18
+            </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+        <!-- <h2>Current Message in Stream</h2>
+        <div id="liveStream">
+            
+            <script type="module">
+                //import axios from './node_modules/axios';
+
+                async function getLiveStream(query) {
+                    const liveStream = 'http://localhost:1337/liveStream';
+                    try {
+                        //const result = await axios(`${proxy}https://www.food2fork.com/api/search?key=${key}&q=${query}`);
+                        //console.log(result.data.recipes);
+                        const result = await fetch(`${liveStream}`)
+                            .then(function(res) {
+                                return res.json();
+                            });
+                        console.log(result);
+                        document.getElementById("liveStream").innerHTML = JSON.stringify(result);
+                    } catch(error) {
+                        console.log(error);
+                    }
+                }
+                getLiveStream();
+            </script>
+        </div> -->
+    
+
+</body>
+</html>

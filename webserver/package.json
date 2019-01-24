@@ -1,0 +1,20 @@
+{
+  "name": "nodeojai",
+  "version": "1.0.0",
+  "description": "Web server to provide MapR DB documents",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-maprdb": "^1.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node js/webserver.js myWebserver",
+    "stop": "killall -SIGINT myWebserver",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris C",
+  "license": "ISC"
+}
