@@ -31,10 +31,7 @@ echo "CLDB Master is ready, continuing startup for $MAPR_CLUSTER ..."
 # Simple test to list volume informaiton over REST API - This is a code place to start putting your code, hint, hint.
 curl -sSk -X POST -u ${MAPR_ADMIN}:${MAPR_ADMIN_PASS} ""${MCS_URL}/rest/volume/list"" >> ~/test.json
 
-
 bin/setup-environment.ubuntu.sh
-
 
 # You should always end with a good exit :)
 exit 0
-
