@@ -13,10 +13,11 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/mapr/lib
 hadoop fs -mkdir /demos
 hadoop fs -mkdir /demos/hl7demo
 hadoop fs -mkdir /demos/hl7demo/d3
-hadoop fs -put ../datasets/hl7_data.json /demos/hl7demo
+hadoop fs -put datasets/hl7_data.json /demos/hl7demo
 
 #Installs
-sudo apt-get install gcc python-devel npm nodejs -y
+curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
+sudo apt-get install gcc python-dev npm nodejs -y
 
 #setup PIP
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
@@ -40,8 +41,10 @@ maprcli table create -path /demos/hl7demo/totalMsgCount -tabletype json
 
 
 # Install NPM Packages for Webserver
-../webserver/npm install
+npm install --prefix webserver/
 
 # Load Starting Data
-hadoop fs -put ../datasets/hospitalsAndBedCounts.json /tmp
+hadoop fs -put datasets/hospitalsAndBedCounts.json /tmp
+hadoop fs -put datasets/totalMsgCount.json /tmp
 mapr importJSON -src /tmp/hospitalsAndBedCounts.json -dst /demos/hl7demo/d3/barChartCount
+mapr importJSON -src /tmp/totalMsgCount.json -dst /demos/hl7demo/totalMsgCount

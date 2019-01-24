@@ -1,6 +1,6 @@
 node_modules/
 webserver/node_modules/
-package-lock.json
+dashboard/node_modules/
 *.ORIG
 *.WORKING
 datasets/*.ORIG
