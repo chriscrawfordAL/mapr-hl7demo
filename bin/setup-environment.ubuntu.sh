@@ -54,3 +54,10 @@ hadoop fs -put datasets/hospitalsAndBedCounts.json /tmp
 hadoop fs -put datasets/totalMsgCount.json /tmp
 mapr importJSON -src /tmp/hospitalsAndBedCounts.json -dst /demos/hl7demo/d3/barChartCount
 mapr importJSON -src /tmp/totalMsgCount.json -dst /demos/hl7demo/totalMsgCount
+
+#Start Node.JS Webserver
+npm start --prefix webserver/
+
+#Start consumers
+python bin/stream-to-db.py
+python bin/adt_count.py
