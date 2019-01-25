@@ -1,4 +1,4 @@
-MSH|^~\&|Test EHR Application|MidTwnUrgentC^2231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-001.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|MidTwnUrgentC^2231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A04|NIST-IZ-001.00|P|2.5.1|||AL|ER
 PID|1||D26376273^^^NIST MPI^MR||Snow^Madelynn^Ainsley^^^^L|Lam^Morgan|20070706|F||2076-8^Native Hawaiian or Other Pacific Islander^CDCREC|32 Prescott Street Ave^^Warwick^MA^02452^USA^L||^PRN^PH^^^657^5558563|||||||||2186-5^non Hispanic or Latino^CDCREC
 PD1|||||||||||02^Reminder/Recall - any method^HL70215|||||A|20120701|20120701
 NK1|1|Lam^Morgan^^^^^L|MTH^Mother^HL70063|32 Prescott Street Ave^^Warwick^MA^02452^USA^L|^PRN^PH^^^657^5558563
@@ -10,13 +10,13 @@ OBX|2|CE|30956-7^vaccine type^LN|2|88^Influenza, unspecified formulation^CVX||||
 OBX|3|TS|29768-9^Date vaccine information statement published^LN|2|20120702||||||F
 OBX|4|TS|29769-7^Date vaccine information statement presented^LN|2|20120814||||||F
 
-MSH|^~\&|G|MidTwnUrgentC^2231231234^NPI|G|G|20100803080800||ADT^A04^ADT_A02|MSG.51|D|2.4
+MSH|^~\&|G|MidTwnUrgentC^2231231234^NPI|G|G|20100803080800||ADT^A02^ADT_A02|MSG.51|D|2.4
 EVN||20040328134602.1234+0600||02
 PID|1||A74322~A74327~A74325||Johnson\&la\&\&\&Hessinger^Wesley^Ellie^PhD||20040328134602.1234+0600|U|||890 South Street\&First Field Road\&346^^Corolla^VT^90210^KGZ||834-5473^^^sam444@gmail.com~(972)765-1994~(972)765-1994~(972)666-1992x6444C Press 2^^^sandy.snow@amtech.org~(240)765-1455~(214)444-5473|||||A74332||MD200-5783-978-333^G^20060412
 PV1|1|P|G^G^G^^^N^G^G|L|||873473^Parker^Walter~bschw^Reynolds^David|M73244^Clemmons^Simon||||||||||G|A74328|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|987.00|139.47|3897.00|43824.12
 ZEN|0001|2006|G|G|||||G|19520408|200510||G
 
-MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar^1231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-002.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar^1231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A03^ADT_A03|NIST-IZ-002.00|P|2.5.1|||AL|ER
 PID|1||D26376281^^^NIST MPI^MR||Marsh^Tierney^Beacher^^^^L|Lucas^Morgan|20100814|M||2076-8^Native Hawaiian or Other Pacific Islander^HL70005|10 Huntington Rd^^Brockton^MA^16080^USA^L||^PRN^PH^^^379^5559369|||||||||2186-5^non Hispanic or Latino^CDCREC
 PD1|||||||||||02^Reminder/Recall - any method^HL70215|||||A|20120701|20120701
 NK1|1|Lucas^Morgan^^^^^L|MTH^Mother^HL70063|32 Prescott Street Ave^^Warwick^MA^02452^USA^L|^PRN^PH^^^657^5558563
@@ -28,7 +28,7 @@ OBX|2|CE|30956-7^vaccine type^LN|2|88^Influenza, unspecified formulation^CVX||||
 OBX|3|TS|29768-9^Date vaccine information statement published^LN|2|20120702||||||F
 OBX|4|TS|29769-7^Date vaccine information statement presented^LN|2|20120814||||||F
 
-MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar^1231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-003.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar^1231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A01^ADT_A01|NIST-IZ-003.00|P|2.5.1|||AL|ER
 PID|1||D26376301^^^MAA^MR||Deschutes^Brooklyn^Dolly^^^^L|Dewey^Dona|20100826|F||2076-8^Native Hawaiian or Other Pacific Islander^HL70005|902 Pacific St^^Orleans^MA^20540^USA^L||^PRN^PH^^^790^5553151|||||||||2186-5^non Hispanic or Latino^CDCREC
 PD1|||||||||||02^Reminder/Recall - any method^HL70215|||||A|20120701|20120701
 NK1|1|Dewey^Dona^^^^^L|MTH^Mother^HL70063|32 Prescott Street Ave^^Warwick^MA^02452^USA^L|^PRN^PH^^^657^5558563
@@ -40,7 +40,7 @@ OBX|2|CE|30956-7^vaccine type^LN|2|88^Influenza, unspecified formulation^CVX||||
 OBX|3|TS|29768-9^Date vaccine information statement published^LN|2|20120702||||||F
 OBX|4|TS|29769-7^Date vaccine information statement presented^LN|2|20120816||||||F
 
-MSH|^~\&|Test EHR Application|SmvUrgentC^3231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-004.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|SmvUrgentC^3231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A02^ADT_A02|NIST-IZ-004.00|P|2.5.1|||AL|ER
 PID|1||MR-76732^^^NIST MPI^MR~184-36-9200^^^MAA^SS||Vally^Nitika^^^^^L||19410813|F|||||^~^NET^^nvally@fastmail.com
 ORC|RE||IZ-783275^NDA|||||||||57422^RADON^NICHOLAS^^^^^^NDA^L
 RXA|0|1|20120814||52^Hep A^CVX|1|mL^MilliLiter [SI Volume Units]^UCUM||00^New immunization record^NIP001||^^^F28||||I90FV|20121214|MSD^Merck and Co^MVX|||CP|A
@@ -50,7 +50,7 @@ OBX|2|TS|29768-9^Date vaccine information statement published^LN|2|20111025|||||
 OBX|3|CE|30956-7^vaccine type^LN|2|85^Hepatitis A^CVX||||||F
 OBX|4|TS|29769-7^Date vaccine information statement presented^LN|2|20120814||||||F
 
-MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-005.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|PacNWHosED||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A04|NIST-IZ-005.00|P|2.5.1|||AL|ER
 PID|1||MR-1789^^^MAA^MR~184-15-3421^^^MAA^SS||Cimarron^Ottoline^^^^^L||19410717|F|||||^~^NET^^Ottoline@hotmail.com
 ORC|RE||IZ-783275^NDA|||||||||57422^RADON^NICHOLAS^^^^^^NDA^L
 RXA|0|1|20120814||52^Hep A^CVX|1|mL^MilliLiter [SI Volume Units]^UCUM||00^New immunization record^NIP001||^^^F28||||I90FV|20121214|MSD^Merck and Co^MVX|||CP|A
@@ -60,7 +60,7 @@ OBX|2|CE|30956-7^vaccine type^LN|2|85^Hepatitis A^CVX||||||F
 OBX|3|TS|29768-9^Date vaccine information statement published^LN|2|20111025||||||F
 OBX|4|TS|29769-7^Date vaccine information statement presented^LN|2|20120814||||||F
 
-MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-006.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar||NIST Test Iz Reg|201207010822||ADT^A01^ADT_A01|NIST-IZ-006.00|P|2.5.1|||AL|ER
 PID|1||MR-356^^^MAA^MR~184-25-4562^^^MAA^SS||Quinla^Eisig^^^^^L||19410714|M|||||^~^NET^^Eisig@hotmail.com
 ORC|RE||IZ-783275^NDA|||||||||57422^RADON^NICHOLAS^^^^^^NDA^L
 RXA|0|1|20120816||115^Tdap^CVX|0.5|mL^MilliLiter [SI Volume Units]^UCUM||00^New immunization record^NIP001||^^^0||||Z79YG|20121216|SKB^GlaxoSmithKline^MVX|||CP|A
@@ -70,73 +70,73 @@ OBX|2|CE|30956-7^vaccine type^LN|2|139^Td(adult) unspecified formulation^CVX||||
 OBX|3|TS|29768-9^Date vaccine information statement published^LN|2|20130509||||||F
 OBX|4|TS|29769-7^Date vaccine information statement presented^LN|2|20120816||||||F
 
-MSH|^~\&|Test EHR Application||BgCtyChldrnUrgntCar^1231231234^NPI|NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-007.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application||BgCtyChldrnUrgntCar^1231231234^NPI|NIST Test Iz Reg|201207010822||ADT^A01^ADT_A01|NIST-IZ-007.00|P|2.5.1|||AL|ER
 PID|1||MR-99922^^^NIST MPI^MR||Montgomery^Lewis^^^^^L||20010821|M
 ORC|RE||IZ-783276^NDA
 RXA|0|1|20110215||118^HPV^CVX|999|||01^Historical information - source unspecified^NIP001
 
-MSH|^~\&|Test EHR Application|MidTwnUrgentC^2231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-008.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|MidTwnUrgentC^2231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A02^ADT_A02|NIST-IZ-008.00|P|2.5.1|||AL|ER
 PID|1||456^^^MAA^MR||Denton^Blakeley^^^^^L||20010824|M
 ORC|RE||IZ-783276^NDA
 RXA|0|1|20110214||115^Tdap^CVX|999|||01^Historical information - source unspecified^NIP001
 
-MSH|^~\&|Test EHR Application|SmvUrgentC^3231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-009.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|SmvUrgentC^3231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A03^ADT_A03|NIST-IZ-009.00|P|2.5.1|||AL|ER
 PID|1||656^^^MAA^MR||Lubbock^Wyuna^^^^^L||20010831|F
 ORC|RE||IZ-783276^NDA
 RXA|0|1|20110215||83^Hep A^CVX|999|||01^Historical information - source unspecified^NIP001
 
-MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-010.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|LakeMichMC||NIST Test Iz Reg|201207010822||ADT^A01^ADT_A01|NIST-IZ-010.00|P|2.5.1|||AL|ER
 PID|1||X-6523^^^NIST MPI^MR||Newton^Lea^^^^^L||20010905|F
 PD1||||||||||||N|20120701
 ORC|RE||IZ-783277^NDA
 RXA|0|1|20110214||115^Tdap^CVX|999|||01^Historical information - source unspecified^NIP001
 
-MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-011.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|LakeMichMC||NIST Test Iz Reg|201207010822||ADT^A01^ADT_A01|NIST-IZ-011.00|P|2.5.1|||AL|ER
 PID|1||5678^^^MAA^MR||Larsen^Hilzarie^^^^^L||20010823|F
 PD1||||||||||||N|20120701
 ORC|RE||IZ-783277^NDA
 RXA|0|1|20110214||115^Tdap^CVX|999|||01^Historical information - source unspecified^NIP001
 
-MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-012.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|PacNWHosED||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A04|NIST-IZ-012.00|P|2.5.1|||AL|ER
 PID|1||45335^^^MAA^MR||Pierce^Rianna^^^^^L||20010813|F
 PD1||||||||||||N|20120701
 ORC|RE||IZ-783277^NDA
 RXA|0|1|20110214||118^HPV^CVX|999|||01^Historical information - source unspecified^NIP001
 
-MSH|^~\&|Test EHR Application|MidTwnUrgentC^2231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-013.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|MidTwnUrgentC^2231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A04|NIST-IZ-013.00|P|2.5.1|||AL|ER
 PID|1||MR-67323^^^NIST MPI^MR||Fleming^Chad^^^^^L||20100830|M
 ORC|RE||9999^CDC
 RXA|0|1|20120815||03^MMR^CVX|999||||||||||||00^Parental Refusal^NIP002||RE
 
-MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-014.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|MidTwnUrgentC||NIST Test Iz Reg|201207010822||ADT^A03^ADT_A03|NIST-IZ-014.00|P|2.5.1|||AL|ER
 PID|1||24572457^^^MAA^MR||Santa Barbara^Naretha^^^^^L||20100831|F
 ORC|RE||9999^CDC
 RXA|0|1|20120815||03^MMR^CVX|999||||||||||||00^Parental Refusal^NIP002||RE
 
-MSH|^~\&|Test EHR Application|SmvUrgentC^3231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-015.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|SmvUrgentC^3231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A02^ADT_A02|NIST-IZ-015.00|P|2.5.1|||AL|ER
 PID|1||23546138^^^MAA^MR||Jones^Braz^^^^^L||20100907|M
 ORC|RE||9999^CDC
 RXA|0|1|20120815||03^MMR^CVX|999||||||||||||00^Parental Refusal^NIP002||RE
 
-MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-016.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|LakeMichMC||NIST Test Iz Reg|201207010822||ADT^A02^ADT_A02|NIST-IZ-016.00|P|2.5.1|||AL|ER
 PID|1||MR-11891^^^NIST MPI^MR||Wolfe^Aron^^^^^L||20010907|M
 ORC|RE||9999^CDC
 RXA|0|1|20110215||998^No vaccine administered^CVX|999||||||||||||||NA
 OBX|1|CE|59784-9^Disease with presumed immunity^LN|1|38907003^Varicella infection^SCT||||||F
 
-MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar^1231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-017.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar^1231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A03^ADT_A03|NIST-IZ-017.00|P|2.5.1|||AL|ER
 PID|1||MR-10791^^^NIST MPI^MR||Riverside^Jezebel^^^^^L||20110901|F
 ORC|RE||9999^CDC
 RXA|0|1|20120216||998^No vaccine administered^CVX|999||||||||||||||NA
 OBX|1|CE|59784-9^Disease with presumed immunity^LN|1|38907003^Varicella infection^SCT||||||F
 
-MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-018.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|MidTwnUrgentC||NIST Test Iz Reg|201207010822||ADT^A03^ADT_A03|NIST-IZ-018.00|P|2.5.1|||AL|ER
 PID|1||MR-10581^^^NIST MPI^MR||Buckshorn^Ankita^^^^^L||20010829|F
 ORC|RE||9999^CDC
 RXA|0|1|20110215||998^No vaccine administered^CVX|999||||||||||||||NA
 OBX|1|CE|59784-9^Disease with presumed immunity^LN|1|38907003^Varicella infection^SCT||||||F
 
-MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-019.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar||NIST Test Iz Reg|201207010822||ADT^A03^ADT_A03|NIST-IZ-019.00|P|2.5.1|||AL|ER
 PID|1||Q-73221^^^NIST MPI^MR||Mercer^Jirra^Emmanuelle^^^^L||20100907|F
 ORC|RE||IZ-783278^NDA|||||||||57422^RADON^NICHOLAS^^^^^^NDA^L
 RXA|0|1|20120816||141^Influenza^CVX|0.25|mL^MilliLiter [SI Volume Units]^UCUM||00^New immunization record^NIP001||||||K5094SC|20121216|PMC^sanofi pasteur^MVX|||CP|A
@@ -161,7 +161,7 @@ OBX|8|CE|30956-7^vaccine type^LN|4|17^Hib^CVX||||||F
 OBX|9|TS|29768-9^Date vaccine information statement published^LN|4|19981216||||||F
 OBX|10|TS|29769-7^Date vaccine information statement presented^LN|4|20120816||||||F
 
-MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar^1231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-020.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar^1231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A04|NIST-IZ-020.00|P|2.5.1|||AL|ER
 PID|1||262627^^^MAA^MR||Umatilla^Salima^Kailyn^^^^L||20100824|F
 ORC|RE||IZ-783278^NDA|||||||||57422^RADON^NICHOLAS^^^^^^NDA^L
 RXA|0|1|20120814||140^Influenza^CVX|0.25|mL^MilliLiter [SI Volume Units]^UCUM||00^New immunization record^NIP001||||||D6992FF|20121214|PMC^sanofi pasteur^MVX|||CP|A
@@ -186,7 +186,7 @@ OBX|8|CE|30956-7^vaccine type^LN|4|17^Hib^CVX||||||F
 OBX|9|TS|29768-9^Date vaccine information statement published^LN|4|19981216||||||F
 OBX|10|TS|29769-7^Date vaccine information statement presented^LN|4|20120814||||||F
 
-MSH|^~\&|Test EHR Application|SmvUrgentC^3231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-020.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|SmvUrgentC^3231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A04|NIST-IZ-020.00|P|2.5.1|||AL|ER
 PID|1||252430^^^MAA^MR||Curry^Qiang^Trystan^^^^L||20090819|M
 ORC|RE||IZ-783278^NDA|||||||||57422^RADON^NICHOLAS^^^^^^NDA^L
 RXA|0|1|20120814||140^Influenza^CVX|0.5|mL^MilliLiter [SI Volume Units]^UCUM||00^New immunization record^NIP001||||||W1356FE|20121214|SKB^GlaxoSmithKline^MVX|||CP|A
@@ -211,7 +211,7 @@ OBX|8|CE|30956-7^vaccine type^LN|4|45^Hep B, unspecified formulation^CVX||||||F
 OBX|9|TS|29768-9^Date vaccine information statement published^LN|4|20120202||||||F
 OBX|10|TS|29769-7^Date vaccine information statement presented^LN|4|20120814||||||F
 
-MSH|^~\&||BgCtyChldrnUrgntCar^1231231234^NPI|||201002201000||ADT^A04^ADT_A01|NIST-SS-001.11|P|2.5.1|||||||||PH_SS-NoAck^SS Sender^2.16.840.1.114222.4.10.3^ISO
+MSH|^~\&||BgCtyChldrnUrgntCar^1231231234^NPI|||201002201000||ADT^A01^ADT_A01|NIST-SS-001.11|P|2.5.1|||||||||PH_SS-NoAck^SS Sender^2.16.840.1.114222.4.10.3^ISO
 EVN||201002200900|||||BgCtyChldrnUrgntCar^1231231234^NPI
 PID|1||11111^^^^MR||^^^^^^~^^^^^^S|||M||2076-8^^CDCREC|^^^^02130^^^^25025|||||||||||2186-5^^CDCREC
 PV1|1||||||||||||||||||1111_001^^^^VN|||||||||||||||||||||||||201002200830
@@ -220,7 +220,7 @@ OBX|2|NM|21612-7^^LN||0|a^^UCUM|||||F
 OBX|3|CWE|8661-1^^LN||^^^^^^^^Fever, cough||||||F
 DG1|1||4871^Influenza with other respiratory manifestations^I9CDX|||W
 
-MSH|^~\&||MidTwnUrgentC^2231231234^NPI|||201208171230||ADT^A04^ADT_A01|NIST-SS-001.12|P|2.5.1|||||||||PH_SS-NoAck^SS Sender^2.16.840.1.114222.4.10.3^ISO
+MSH|^~\&||MidTwnUrgentC^2231231234^NPI|||201208171230||ADT^A01^ADT_A01|NIST-SS-001.12|P|2.5.1|||||||||PH_SS-NoAck^SS Sender^2.16.840.1.114222.4.10.3^ISO
 EVN||201208171220|||||MidTwnUrgentC^2231231234^NPI
 PID|1||2222^^^^MR||^^^^^^~^^^^^^S|||F||2106-3^^CDCREC|^^^^30303^^^^13121|||||||||||2135-2^^CDCREC
 PV1|1||||||||||||||||||2222_001^^^^VN|||||||||||||||||||||||||201208171130
@@ -229,7 +229,7 @@ OBX|2|NM|21612-7^^LN||35|a^^UCUM|||||F
 OBX|3|CWE|8661-1^^LN||^^^^^^^^Fever, chills, smelly urine with burning during urination||||||F
 DG1|1||5990^Urinary tract infection, site not specified^I9CDX|||W
 
-MSH|^~\&||SmvUrgentC^3231231234^NPI|||201208251430||ADT^A04^ADT_A01|NIST-SS-001.13|P|2.5.1|||||||||PH_SS-NoAck^SS Sender^2.16.840.1.114222.4.10.3^ISO
+MSH|^~\&||SmvUrgentC^3231231234^NPI|||201208251430||ADT^A01^ADT_A01|NIST-SS-001.13|P|2.5.1|||||||||PH_SS-NoAck^SS Sender^2.16.840.1.114222.4.10.3^ISO
 EVN||201208251430|||||SmvUrgentC^3231231234^NPI
 PID|1||3111^^^^MR||^^^^^^~^^^^^^S|||M||2106-3^^CDCREC|^^^^66733^^^^20133|||||||||||2186-5^^CDCREC
 PV1|1||||||||||||||||||3111_001^^^^VN|||||||||||||||||||||||||201208251300
@@ -266,7 +266,7 @@ OBX|1|CWE|SS003^^PHINQUESTION||261QU0200X^Urgent Care^NUCC||||||F
 OBX|2|NM|21612-7^^LN||27|a^^UCUM|||||F
 OBX|3|CWE|8661-1^^LN||^^^^^^^^Skateboarding accident possible broken right arm, swelling and painful to move||||||F
 
-MSH|^~\&||WstrnRgnlMedCntr^1231231235^NPI|||201207171700||ADT^A04^ADT_A01|NIST-SS-002.11|P|2.5.1|||||||||PH_SS-NoAck^SS Sender^2.16.840.1.114222.4.10.3^ISO
+MSH|^~\&||WstrnRgnlMedCntr^1231231235^NPI|||201207171700||ADT^A01^ADT_A01|NIST-SS-002.11|P|2.5.1|||||||||PH_SS-NoAck^SS Sender^2.16.840.1.114222.4.10.3^ISO
 EVN||201207171700|||||WstrnRgnlMedCntr^1231231235^NPI
 PID|1||222^^^^MR||^^^^^^~^^^^^^U|||F||2106-3^^CDCREC
 PV1|1||||||||||||||||||20120709_0064^^^^VN|||||||||||||||||||||||||201207171700
@@ -274,7 +274,7 @@ OBX|1|CWE|SS003^^PHINQUESTION||261QE0002X^Emergency Care^NUCC||||||F
 OBX|2|NM|21612-7^^LN|||UNK^^NULLFL|||||F
 OBX|3|CWE|8661-1^^LN||E8126^Other motor vehicle traffic accident involving collision with motor vehicle injuring pedal cyclist^I9CDX||||||F
 
-MSH|^~\&||PacNWHosED^2481227981^NPI|||201208030200||ADT^A04^ADT_A01|NIST-SS-002.12|P|2.5.1|||||||||PH_SS-NoAck^SS Sender^2.16.840.1.114222.4.10.3^ISO
+MSH|^~\&||PacNWHosED^2481227981^NPI|||201208030200||ADT^A01^ADT_A01|NIST-SS-002.12|P|2.5.1|||||||||PH_SS-NoAck^SS Sender^2.16.840.1.114222.4.10.3^ISO
 EVN||201208030200|||||PacNWHosED^2481227981^NPI
 PID|1||222^^^^MR||^^^^^^~^^^^^^U|||M||2106-3^^CDCREC
 PV1|1||||||||||||||||||20120802_0064^^^^VN|||||||||||||||||||||||||201208022345
@@ -282,7 +282,7 @@ OBX|1|CWE|SS003^^PHINQUESTION||261QE0002X^Emergency Care^NUCC||||||F
 OBX|2|NM|21612-7^^LN|||UNK^^NULLFL|||||F
 OBX|3|CWE|8661-1^^LN||E890^Conflagration in private dwelling^I9CDX||||||F
 
-MSH|^~\&||MidWsUnvMC^6462583641^NPI|||201205081600||ADT^A04^ADT_A01|NIST-SS-002.13|P|2.5.1|||||||||PH_SS-NoAck^SS Sender^2.16.840.1.114222.4.10.3^ISO
+MSH|^~\&||MidWsUnvMC^6462583641^NPI|||201205081600||ADT^A01^ADT_A01|NIST-SS-002.13|P|2.5.1|||||||||PH_SS-NoAck^SS Sender^2.16.840.1.114222.4.10.3^ISO
 EVN||201205081600|||||MidWsUnvMC^6462583641^NPI
 PID|1||222^^^^MR||^^^^^^~^^^^^^U|||F||2028-9^^CDCREC
 PV1|1||||||||||||||||||20120508_0064^^^^VN|||||||||||||||||||||||||201205081525
@@ -344,7 +344,7 @@ OBX|1|CWE|SS003^^PHINQUESTION||261QE0002X^Emergency Care^NUCC||||||F
 OBX|2|NM|21612-7^^LN||19|a^^UCUM|||||F
 OBX|3|CWE|8661-1^^LN||E8809^accidental fall on or from other stairs or steps^I9CDX||||||F
 
-MSH|^~\&||SthrnMdwstMedCntr^1231231236^NPI|||201002010745||ADT^A04^ADT_A01|NIST-SS-003.11|P|2.5.1|||||||||PH_SS-NoAck^SS Sender^2.16.840.1.114222.4.10.3^ISO
+MSH|^~\&||SthrnMdwstMedCntr^1231231236^NPI|||201002010745||ADT^A01^ADT_A01|NIST-SS-003.11|P|2.5.1|||||||||PH_SS-NoAck^SS Sender^2.16.840.1.114222.4.10.3^ISO
 EVN||201002010745|||||SthrnMdwstMedCntr^1231231236^NPI
 PID|1||3333^^^^MR||^^^^^^~^^^^^^S|||M||2106-3^^CDCREC|^^^^74852^^^^40125|||||||||||2186-5^^CDCREC
 PV1|1||||||||||||||||||3333_001^^^^VN|||||||||||||||||||||||||201002010730
@@ -352,297 +352,289 @@ OBX|1|CWE|SS003^^PHINQUESTION||261QE0002X^Emergency Care^NUCC||||||F
 OBX|2|NM|21612-7^^LN||70|a^^UCUM|||||F
 OBX|3|CWE|8661-1^^LN||^^^^^^^^headache, nausea and dizziness||||||F
 
-MSH|^~\&||LakeMichMC^9879874000^NPI|||201204012200||ADT^A04^ADT_A01|NIST-SS-003.12|P|2.5.1|||||||||PH_SS-NoAck^SS Sender^2.16.840.1.114222.4.10.3^ISO
-EVN||201204012200|||||LakeMichMC^9879874000^NPI
-PID|1||33333^^^^MR||^^^^^^~^^^^^^S|||F||2106-3^^CDCREC|^^^^53217^^^^55089|||||||||||2186-5^^CDCREC
-PV1|1||||||||||||||||||33333_001^^^^VN|||||||||||||||||||||||||201204012130
-OBX|1|CWE|SS003^^PHINQUESTION||261QE0002X^Emergency Care^NUCC||||||F
-OBX|2|NM|21612-7^^LN||45|a^^UCUM|||||F
-OBX|3|CWE|8661-1^^LN||^^^^^^^^Diarrhea, stomach pain, dehydration||||||F
-
-MSH|^~\&|G|PacNWHosED^2481227981^NPI|G|G|20120701060700||ADT^A04^ADT_A03|MSG.0|D|2.4
+MSH|^~\&|G|PacNWHosED^2481227981^NPI|G|G|20120701060700||ADT^A03^ADT_A03|MSG.0|D|2.4
 EVN||20040328134602.1234+0600||03
 PID|1||A74332~A74329||Livingston\&la\&\&Van\&Dawson^Charlie^S.^^Ms.^^M^P||20040328134602.1234+0600|N|||35 main Street\&Bureau Drive\&789^^Topeka^KY^90210^ARE||(240)765-1214x5924~(814)442-5473x22C After 6:00^^^cookingwithsue@homecoking.com~693-3432~(972)666-1992x6444C Press 2^^^sandy.snow@amtech.org~(301)191-9999^^^sam444@gmail.com~(814)284-9218|||||A74327||IN35489768457^G^200211
 PV1|1|U|^G^G^USSSA^^^G|A|||aflav^Livingstone^Evan|732472^Clemmons^Cindy||||||||||G|A74326|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|432.85|432.85||897.66
 ZEN|0001|2006|G|G||text||G||2006|200510||G
 
-MSH|^~\&|G|SmvUrgentC^3231231234^NPI|G|G|20100321090300||ADT^A04^ADT_A01|MSG.1|D|2.4
+MSH|^~\&|G|SmvUrgentC^3231231234^NPI|G|G|20100321090300||ADT^A01^ADT_A01|MSG.1|D|2.4
 EVN||20040328134602.1234+0600||03
 PID|1||A74321~A74331||Livingstone\&Van\&Van\&\&Hessinger^Alex^^^Dr.^^U||20040328134602.1234+0600|M|||9200 Valley Pike\&Sky Blue Court^^Lansing^DE^65982-0023^DMA||(972)233-1992x63741~(814)284-9218~(972)233-1992x63741^^^MaryKay8432@nist.gov|||||A74322||IN35489768457^G^19980319
 PV1|1|I|G^G^G^^^N^G^^X|E|||78231^Simmons^Steven|shenr^Manning^Mary Ann||||||||||G|A74321|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|698.00|35.00||3897.00
 ZEN|0001|200510|G|G||abc||||19520408|2006||G
 
-MSH|^~\&|G|BgCtyChldrnUrgntCar^1231231234^NPI|G|G|20160217120200||ADT^A04^ADT_A03|MSG.2|D|2.4
+MSH|^~\&|G|BgCtyChldrnUrgntCar^1231231234^NPI|G|G|20160217120200||ADT^A03^ADT_A03|MSG.2|D|2.4
 EVN||20040328134602.1234+0600||03
 PID|1||A74334~A74328||Parker\&Van\&\&de^Robert^William^MD^Dr.||20040328134602.1234+0600|U|||90867 East Street\&Clopper Road^^Germantown^MD^41123-9847^GNQ||(814)284-9218^^^cookingwithsue@homecoking.com~(814)442-5473x22C After 6:00~(703)463-9900~(972)666-1992x6444C Press 2^^^johnG@gmail.com|||||A74334||IN35489768457^G^20060630
 PV1|1|B|^G^G^^G^^G^^long default text|R|||732472^Simmons^Steven|lgeba^Abbett^Walter||||||||||G|A74334|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|37.00|35.00|897.66|239.00
 ZEN|0001|200510|G|G||||||2006|19520408||G
 
-MSH|^~\&|G|LakeMichMC^9879874000^NPI|G|G|20010510100500||ADT^A04^ADT_A02|MSG.3|D|2.4
+MSH|^~\&|G|LakeMichMC^9879874000^NPI|G|G|20010510100500||ADT^A02^ADT_A02|MSG.3|D|2.4
 EVN||20040328134602.1234+0600||03
 PID|1||A74330~A74324~A74326||Johnson\&Van^Robert^^II^Dr.^^^A||20040328134602.1234+0600|M|||12345 Palmer Avenue\&Quince Orchard Road\&4359739^^Portsmouth^ND^22176-1899^ATA||(972)233-1992x63741^^^CMoneymaker@poker.org~(972)765-1994^^^Freddie@hotmail.com~834-5473^^^richard.lang@alpha.net~(972)444-2222~(703)463-9900~693-3432~(412)221-7218^^^jay@yahoo.com|||||A74327||TX5673803249^G^20060630
 PV1|1|B|^G^G^^^^G^^long default text|A|||234894^Livingston^Cindy~lgeba^Livingston^Wesley|shenr^Clemmons^Connor||||||||||G|A74324|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|37.00|505.00||43824.12
 ZEN|0001|200510|G|G||||||200510|2006|19520408|G
 
-MSH|^~\&|G|LakeMichMC^9879874000^NPI|G|G|20130925100900||ADT^A04^ADT_A01|MSG.4|D|2.4
+MSH|^~\&|G|LakeMichMC^9879874000^NPI|G|G|20130925100900||ADT^A01^ADT_A01|MSG.4|D|2.4
 EVN||20040328134602.1234+0600||02
 PID|1||A74324~A74322~A74325||Beltran\&la\&Van\&la^William^^JD^Ms.^^^I||20040328134602.1234+0600|F|||12345 Palmer Avenue\&Quince Orchard Road\&3^^Gaithersburg^DE^20874^BLR||(412)446-5423x123~233-4422~(240)765-1455~(301)392-6372~(301)191-9999^^^sam444@gmail.com~(703)463-9900^^^Elmer.Kramer@bigtree.com|||||A74323||TX5673803249^G^20060412
 PV1|1|U|^G^G^^^S^G^^X|E|||43244^Abbett^Wesley|20034^Livingstone^Cole||||||||||G|A74325|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|3897.00|239.00||37.00
 ZEN|0001|200510|G|G|||G||G|2006|2006||G
 
-MSH|^~\&|G|MidTwnUrgentC^2231231234^NPI|G|G|20100715080700||ADT^A04^ADT_A03|MSG.5|D|2.4
+MSH|^~\&|G|MidTwnUrgentC^2231231234^NPI|G|G|20100715080700||ADT^A03^ADT_A03|MSG.5|D|2.4
 EVN||20040328134602.1234+0600||03
 PID|1||A74325||Reynolds\&den\&den^Evan^^^Miss^^L||20040328134602.1234+0600|N|||9200 Valley Pike\&Clopper Road^^Jacksonville^IL^21754^LVA||(412)446-5423x123~(240)222-1212~(412)221-7218^^^joe.doe@inatech.com~(412)221-7218~693-3432|||||A74323||MD200-5783-978-333^G^20060630
 PV1|1|I|^G^G^^^^G^G^abc|A|||cluce^Jansen^Alex~K784873^Beltran^Simon|Y44^Jansen^Simon||||||||||G|A74333|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|62.33|100.00|842.90|139.47
 ZEN|0001|200510|G|G||||||19520408|200510||G
 
-MSH|^~\&|G|BgCtyChldrnUrgntCar^1231231234^NPI|G|G|20140225030200||ADT^A04^ADT_A03|MSG.6|D|2.4
+MSH|^~\&|G|BgCtyChldrnUrgntCar^1231231234^NPI|G|G|20140225030200||ADT^A03^ADT_A03|MSG.6|D|2.4
 EVN||20040328134602.1234+0600||02
 PID|1||A74325||Reynolds\&de\&Mere\&\&Fields^Charlie^^JR^^^S^A||20040328134602.1234+0600|O|||35 main Street\&Gatehouse Road\&4359739^^Jacksonville^MD^65982-0023^AND||(214)444-5473~(214)444-5473^^^Elmer.Kramer@bigtree.com~(972)765-1994~(703)463-9900~(412)287-7733~(214)444-5471X7342~(214)444-5473^^^joe.doe@inatech.com~(301)392-6372^^^RonnieBrown@gmail.com~221-4753C local number~(240)765-1214x5924|||||A74322||IN35489768457^G^200211
 PV1|1|B|^G^G^^G^S^G|E|||43244^Livingston^Mary Ann|rsnel^Clemmons^Wesley||||||||||G|A74334|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|842.90|97.98|35.00|97.98
 ZEN|0001|200510|G|G||X|G||G|19520408|200510||G
 
-MSH|^~\&|G|PacNWHosED^2481227981^NPI|G|G|20120705020700||ADT^A04^ADT_A01|MSG.7|D|2.4
+MSH|^~\&|G|PacNWHosED^2481227981^NPI|G|G|20120705020700||ADT^A01^ADT_A01|MSG.7|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74327~A74332||Jones\&de\&Mere\&de\&Sandstrom^William^Douglas^MD^Madame^^D||20040328134602.1234+0600|O|||35 main Street\&Sky Blue Court\&789^^Duck^DE^15857^GRL||(412)221-7218~(412)221-7218^^^linda@showroom.com~(608)885-2312^^^sam444@gmail.com~(214)444-5473^^^richard.lang@alpha.net~(972)765-1994^^^linda@showroom.com~233-4422~(972)765-1994~(301)392-6372|||||A74331||HI253509^G^200412
 PV1|1|U|G^G^G^^^^G^^abc|A|||aflav^Parker^William~234894^Jansen^Ian|732472^Owens^Connor||||||||||G|A74333|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|842.90|842.90|83.34|43824.12
 ZEN|0001|2006|G|G||||||200510|2006|200510|G
 
-MSH|^~\&|G|WstrnRgnlMedCntr^1231231235^NPI|G|G|20160424070400||ADT^A04^ADT_A03|MSG.8|D|2.4
+MSH|^~\&|G|WstrnRgnlMedCntr^1231231235^NPI|G|G|20160424070400||ADT^A03^ADT_A03|MSG.8|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74326~A74321||Livingston\&den\&Van\&Von\&Sandstrom^Cindy^^^Dr.||20040328134602.1234+0600|A|||9200 Valley Pike\&Bureau Drive^^Duck^CA^20899^SWZ||(214)444-5471X7342^^^MaryKay8432@nist.gov~818-6438X44~(814)442-5473x22C After 6:00^^^CMoneymaker@poker.org~(412)221-7218^^^john28322@aol.net~49 (301)444-5473~834-5473|||||A74331||HI253509^G^200211
 PV1|1|E|G^G^G^CANYT^G^^G^G|R|||Y44^Manning^Alex~1234^Clemmons^Cole|M73244^Johnson^William||||||||||G|A74329|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|897.66|987.00||62.33
 ZEN|0001|200510|G|G||||G||2006|200510|2006|G
 
-MSH|^~\&|G|WstrnRgnlMedCntr^1231231235^NPI|G|G|20090226100200||ADT^A04^ADT_A02|MSG.9|D|2.4
+MSH|^~\&|G|WstrnRgnlMedCntr^1231231235^NPI|G|G|20090226100200||ADT^A02^ADT_A02|MSG.9|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74333~A74322||Birdseye\&de\&Van^Cindy^^JD^^^^P||20040328134602.1234+0600|N|||9200 Valley Pike\&First Field Road\&346^^Lansing^OH^15846^BWA||(972)666-1992x6444C Press 2^^^TerryB@steelers.net~(240)222-1212^^^linda@showroom.com~49 (301)444-5473~(972)444-2222^^^albert.livingston@cmucollege.edu~(972)233-1992x63741^^^RonnieBrown@gmail.com~693-3432|||||A74331||MD200-5783-978-333^G^20060412
 PV1|1|C|^G^G^^^C^G|R|||rsnel^Jansen^Robert~873473^Owens^Cindy|lgeba^Reinhold^Connor||||||||||G|A74326|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|2567.87|2567.87||14.85
 ZEN|0001|2006|G|G||||||19520408|2006||G
 
-MSH|^~\&|G|PacNWHosED^2481227981^NPI|G|G|20030713010700||ADT^A04^ADT_A01|MSG.10|D|2.4
+MSH|^~\&|G|PacNWHosED^2481227981^NPI|G|G|20030713010700||ADT^A01^ADT_A01|MSG.10|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74323||Parker\&Von^William^^MD^Dr.^^C||20040328134602.1234+0600|A|||12967 Hillendale Road\&Old Frederick Road^^Portsmouth^OR^51212-1455^TMP||(972)666-1992x6444C Press 2^^^cookingwithsue@homecoking.com~693-3432^^^RonnieBrown@gmail.com~221-4753C local number^^^CMoneymaker@poker.org~(412)446-5423x123~49 (301)444-5473^^^sandy.snow@amtech.org~(240)765-1214x5924^^^richard.lang@alpha.net|||||A74331||TX5673803249^G^200411
 PV1|1|C|^G^G^^G^H^G^^text|R|||cluce^Simmons^David~1234^Abbett^Ian|M73244^Jansen^Edward||||||||||G|A74328|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|2567.87|100.00||43824.12
 ZEN|0001|19520408|G|G||||||200510|200510|19520408|G
 
-MSH|^~\&|G|SthrnMdwstMedCntr^1231231236^NPI|G|G|20101019041000||ADT^A04^ADT_A03|MSG.11|D|2.4
+MSH|^~\&|G|SthrnMdwstMedCntr^1231231236^NPI|G|G|20101019041000||ADT^A03^ADT_A03|MSG.11|D|2.4
 EVN||20040328134602.1234+0600||03
 PID|1||A74327~A74330~A74333||Moss\&den\&la^Cole^^JR^Mrs.^^T^I||20040328134602.1234+0600|N|||75670 Green Way\&Quince Orchard Road^^Jacksonville^ND^33308^NAM||233-4422^^^john28322@aol.net~(972)444-2222~818-6438X44|||||A74330||HI253509^G^20060412
 PV1|1|P|G^G^G^USSSA^G^^G|E|||rsnel^Reynolds^Cole~43244^Parker^Cole|M73244^Abbett^Simon||||||||||G|A74326|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|97.98|698.00|842.90|139.47
 ZEN|0001|200510|G|G||||||19520408|19520408|2006|G
 
-MSH|^~\&|G|SmvUrgentC^3231231234^NPI|G|G|20031008021000||ADT^A04^ADT_A03|MSG.12|D|2.4
+MSH|^~\&|G|SmvUrgentC^3231231234^NPI|G|G|20031008021000||ADT^A03^ADT_A03|MSG.12|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74321||Livingstone\&Van\&den\&de\&Sandstrom^Wesley^Ellen^^^^T||20040328134602.1234+0600|A|||12967 Hillendale Road\&Old Frederick Road\&90238^^Portsmouth^OH^15846^NAM||(972)444-2222~(703)463-9900^^^john28322@aol.net~(814)442-5473x22C After 6:00^^^Nick.K.Burdett@hawks.com|||||A74324||IN35489768457^G^20050101
 PV1|1|I|^G^G^CANYT^G^S^G^^abc|N|||bschw^Parker^Austin~20034^Manning^Robert|43244^Livingstone^Evan||||||||||G|A74325|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|97.98|842.90|43824.12|43824.12
 ZEN|0001|19520408|G|G||X||G||2006|19520408||G
 
-MSH|^~\&|G|BgCtyChldrnUrgntCar^1231231234^NPI|G|G|20160106020100||ADT^A04^ADT_A02|MSG.13|D|2.4
+MSH|^~\&|G|BgCtyChldrnUrgntCar^1231231234^NPI|G|G|20160106020100||ADT^A02^ADT_A02|MSG.13|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74333~A74329||Livingston\&Mere\&Mere^Steven^^^^^^A||20040328134602.1234+0600|U|||35 main Street\&Sky Blue Court^^Newtown^DE^33308^SVN||(972)444-2222^^^Sam8493@hotmail.net~(412)221-7218~693-3432~233-4422^^^joe.doe@inatech.com~(240)222-1212~221-4753C local number^^^Elmer.Kramer@bigtree.com~(301)444-5473B951^^^Elmer.Kramer@bigtree.com~(240)222-1212^^^johnG@gmail.com|||||A74330||IN35489768457^G^20050101
 PV1|1|I|^G^G^^^D^G^^long default text|N|||M73244^Moss^William|234894^Clemmons^David||||||||||G|A74330|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|78.99|1243.00||78.99
 ZEN|0001|2006|G|G|||G|||200510|200510|200510|G
 
-MSH|^~\&|G|SmvUrgentC^3231231234^NPI|G|G|20130918020900||ADT^A04^ADT_A02|MSG.14|D|2.4
+MSH|^~\&|G|SmvUrgentC^3231231234^NPI|G|G|20130918020900||ADT^A02^ADT_A02|MSG.14|D|2.4
 EVN||20040328134602.1234+0600||02
 PID|1||A74334||Abbett\&den\&den\&Von^Ian^^^Miss^^^A||20040328134602.1234+0600|F|||90867 East Street\&Sky Blue Court\&346^^Portsmouth^MD^65982-0023^SLB||(972)666-1992x6444C Press 2~(608)885-2312^^^joe.doe@inatech.com~693-3432^^^linda@showroom.com~(972)765-1994~(301)444-5473B951^^^jay@yahoo.com~(814)284-9218^^^john28322@aol.net~(240)222-1212^^^johnG@gmail.com~(214)444-5473|||||A74327||MD200-5783-978-333^G^20060412
 PV1|1|U|G^G^G^^^^G^G^X|C|||234894^Manning^William|aflav^Manning^Connor||||||||||G|A74334|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|97.98|139.47||37.00
 ZEN|0001|19520408|G|G||X||||2006|2006||G
 
-MSH|^~\&|G|MidWsUnvMC^6462583641^NPI|G|G|20010825060800||ADT^A04^ADT_A02|MSG.15|D|2.4
+MSH|^~\&|G|MidWsUnvMC^6462583641^NPI|G|G|20010825060800||ADT^A02^ADT_A02|MSG.15|D|2.4
 EVN||20040328134602.1234+0600||02
 PID|1||A74333||Jones\&Van^Charlie^^PhD^^^M||20040328134602.1234+0600|N|||90867 East Street\&First Field Road^^Germantown^WI^06001^BWA||(608)885-2312^^^CMoneymaker@poker.org~834-5473~(240)765-1214x5924^^^richard.lang@alpha.net~(814)284-9218~693-3432~(412)446-5423x123~(301)191-9999~(214)444-5471X7342^^^cookingwithsue@homecoking.com~(301)191-9999~(972)444-2222^^^cookingwithsue@homecoking.com|||||A74322||HI253509^G^19980319
 PV1|1|O|G^G^G^USHCFA^G^^G^^text|R|||873473^Beltran^Steven|rsnel^Abbett^Charlie||||||||||G|A74321|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|432.85|698.00||698.00
 ZEN|0001|2006|G|G|||||G|200510|2006||G
 
-MSH|^~\&|G|WstrnRgnlMedCntr^1231231235^NPI|G|G|20141106071100||ADT^A04^ADT_A03|MSG.16|D|2.4
+MSH|^~\&|G|WstrnRgnlMedCntr^1231231235^NPI|G|G|20141106071100||ADT^A03^ADT_A03|MSG.16|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74332~A74330||Smith\&Van^Edward^Douglas^PhD^Miss^^U||20040328134602.1234+0600|U|||12967 Hillendale Road\&Old Frederick Road^^Germantown^WI^41123-9847^POL||221-0548~(412)446-5423x123~(214)444-5471X7342^^^joe.doe@inatech.com~(214)444-5471X7342^^^johnG@gmail.com~(972)765-1994~(301)444-5473B951^^^RonnieBrown@gmail.com~(412)446-5423x123^^^richard.lang@alpha.net~(703)463-9900^^^MaryKay8432@nist.gov|||||A74333||HI253509^G^200305
 PV1|1|E|G^G^G^CANBC^^^G|A|||20034^Moss^Connor~78231^Jansen^Alex|Y44^Reinhold^Connor||||||||||G|A74331|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|35.00|505.00||239.00
 ZEN|0001|19520408|G|G|||G|||2006|200510|19520408|G
 
-MSH|^~\&|G|BgCtyChldrnUrgntCar^1231231234^NPI|G|G|20030210120200||ADT^A04^ADT_A01|MSG.17|D|2.4
+MSH|^~\&|G|BgCtyChldrnUrgntCar^1231231234^NPI|G|G|20030210120200||ADT^A01^ADT_A01|MSG.17|D|2.4
 EVN||20040328134602.1234+0600||03
 PID|1||A74323||Abbett\&la\&Van^Austin^^^^^R||20040328134602.1234+0600|F|||35 main Street\&First Field Road^^Omaha^OR^62213^TCA||(301)392-6372^^^MaryKay8432@nist.gov~233-4422^^^cookingwithsue@homecoking.com~(814)442-5473x22C After 6:00~(240)765-1214x5924^^^RonnieBrown@gmail.com~693-3432^^^Nick.K.Burdett@hawks.com~(301)191-9999~221-0548^^^cookingwithsue@homecoking.com~(608)885-2312|||||A74328||MD200-5783-978-333^G^19991212
 PV1|1|O|G^G^G^^G^S^G^G|E|||K784873^Jansen^Simon~cluce^Abbett^Austin|3472390832^Owens^Edward||||||||||G|A74332|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|1243.00|97.98||14.85
 ZEN|0001|19520408|G|G||||||19520408|200510||G
 
-MSH|^~\&|G|MidWsUnvMC^6462583641^NPI|G|G|20070813040800||ADT^A04^ADT_A01|MSG.18|D|2.4
+MSH|^~\&|G|MidWsUnvMC^6462583641^NPI|G|G|20070813040800||ADT^A01^ADT_A01|MSG.18|D|2.4
 EVN||20040328134602.1234+0600||02
 PID|1||A74331~A74328~A74331||Johnson\&Van^David^Ann^V||20040328134602.1234+0600|F|||12967 Hillendale Road\&Sky Blue Court^^Newtown^MD^20854^LAO||221-0548^^^cookingwithsue@homecoking.com~(240)222-1212~(240)222-1212^^^joe.doe@inatech.com~(972)233-1992x63741~49 (301)444-5473^^^joe.doe@inatech.com|||||A74323||IN35489768457^G^19980319
 PV1|1|C|G^G^G^^G^^G^G|L|||732472^Jones^Edward~K784873^Moss^Walter|78231^Jansen^Evan||||||||||G|A74327|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|78.99|432.85|14.85|139.47
 ZEN|0001|2006|G|G|G|||||2006|200510||G
 
-MSH|^~\&|G|WstrnRgnlMedCntr^1231231235^NPI|G|G|20061123091100||ADT^A04^ADT_A01|MSG.19|D|2.4
+MSH|^~\&|G|WstrnRgnlMedCntr^1231231235^NPI|G|G|20061123091100||ADT^A01^ADT_A01|MSG.19|D|2.4
 EVN||20040328134602.1234+0600||02
 PID|1||A74322~A74333||Owens\&den\&Von\&Von^Cindy^^IV^^^^P||20040328134602.1234+0600|F|||35 main Street\&Quince Orchard Road\&346^^Portsmouth^CA^07021^GAB||(412)221-7218^^^sandy.snow@amtech.org~(240)222-1212^^^johnG@gmail.com|||||A74333||MD200-5783-978-333^G^20040324
 PV1|1|E|G^G^G^CANQC^^S^G^^X|C|||Y44^Jones^William|732472^Owens^Edward||||||||||G|A74324|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|2567.87|698.00||698.00
 ZEN|0001|200510|G|G||abc||G|G|2006|2006|200510|G
 
-MSH|^~\&|G|MidWsUnvMC^6462583641^NPI|G|G|20181211081200||ADT^A04^ADT_A03|MSG.20|D|2.4
+MSH|^~\&|G|MidWsUnvMC^6462583641^NPI|G|G|20181211081200||ADT^A03^ADT_A03|MSG.20|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74327||Parker\&Mere\&la\&la^Evan^^PhD||20040328134602.1234+0600|U|||12345 Palmer Avenue\&Old Frederick Road\&56^^Gaithersburg^OH^15846^TCA||(412)287-7733~(214)444-5473^^^jay@yahoo.com~(972)444-2222^^^RonnieBrown@gmail.com~(972)233-1992x63741~(972)666-1992x6444C Press 2~(972)233-1992x63741^^^Nick.K.Burdett@hawks.com~221-4753C local number^^^johnG@gmail.com~(301)191-9999^^^joe.doe@inatech.com|||||A74328||HI253509^G^20060412
 PV1|1|U|^G^G^AUSHIC^^N^G^^X|C|||shenr^Manning^Austin~1783478753^Livingston^Austin|cluce^Reinhold^Charlie||||||||||G|A74332|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|239.00|1243.00||37.00
 ZEN|0001|19520408|G|G|||G||G|200510|200510||G
 
-MSH|^~\&|G|MidTwnUrgentC^2231231234^NPI|G|G|20020610070600||ADT^A04^ADT_A03|MSG.21|D|2.4
+MSH|^~\&|G|MidTwnUrgentC^2231231234^NPI|G|G|20020610070600||ADT^A03^ADT_A03|MSG.21|D|2.4
 EVN||20040328134602.1234+0600||02
 PID|1||A74330~A74331||Jansen\&den\&\&den\&Little^Ian^^III^Sir^^^A||20040328134602.1234+0600|F|||75670 Green Way\&Sky Blue Court\&4359739^^Portsmouth^MD^15857^TMP||(301)191-9999^^^RonnieBrown@gmail.com~818-6438X44^^^richard.lang@alpha.net~(972)666-1992x6444C Press 2^^^cookingwithsue@homecoking.com~(301)392-6372^^^johnG@gmail.com~221-0548~(814)284-9218~(412)446-5423x123^^^sam444@gmail.com~(972)233-1992x63741^^^Freddie@hotmail.com|||||A74333||TX5673803249^G^200211
 PV1|1|I|^G^G^^G^D^G^^X|C|||732472^Livingston^Austin|rsnel^Parker^Simon||||||||||G|A74328|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|987.00|43824.12||100.00
 ZEN|0001|200510|G|G|G|||||2006|19520408||G
 
-MSH|^~\&|G|SthrnMdwstMedCntr^1231231236^NPI|G|G|20010202060200||ADT^A04^ADT_A01|MSG.22|D|2.4
+MSH|^~\&|G|SthrnMdwstMedCntr^1231231236^NPI|G|G|20010202060200||ADT^A01^ADT_A01|MSG.22|D|2.4
 EVN||20040328134602.1234+0600||03
 PID|1||A74334~A74324~A74331||Jansen\&la\&Von\&Van\&Little^Edward^Ellen^III||20040328134602.1234+0600|F|||3 Traveler Court\&First Field Road^^Newtown^IL^22176-1899^KHM||834-5473~(214)444-5473^^^RonnieBrown@gmail.com~233-4422|||||A74334||MD200-5783-978-333^G^200305
 PV1|1|O|G^G^G^^^^G^G|C|||3472390832^Johnson^Evan~3472390832^Abbett^Steven|M73244^Manning^Walter||||||||||G|A74324|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|37.00|35.00|505.00|897.66
 ZEN|0001|19520408|G|G|G|X||||19520408|2006|200510|G
 
-MSH|^~\&|G|MidTwnUrgentC^2231231234^NPI|G|G|20100518010500||ADT^A04^ADT_A03|MSG.23|D|2.4
+MSH|^~\&|G|MidTwnUrgentC^2231231234^NPI|G|G|20100518010500||ADT^A03^ADT_A03|MSG.23|D|2.4
 EVN||20040328134602.1234+0600||02
 PID|1||A74327||Livingstone\&de\&den\&\&Munson^Steven^Marie^V^Ms.||20040328134602.1234+0600|U|||35 main Street\&Clopper Road^^Germantown^NY^65982-0023^HMD||834-5473~221-4753C local number~(814)284-9218^^^Nick.K.Burdett@hawks.com~(972)233-1992x63741^^^RonnieBrown@gmail.com~(214)444-5473~(240)222-1212~(412)446-5423x123~818-6438X44|||||A74333||HI253509^G^200412
 PV1|1|B|^G^G^^^C^G^G|R|||732472^Birdseye^Cole~5782389473482^Livingston^Alex|20034^Reynolds^Cindy||||||||||G|A74323|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|14.85|239.00||698.00
 ZEN|0001|2006|G|G||||||19520408|2006|19520408|G
 
-MSH|^~\&|G|MidTwnUrgentC^2231231234^NPI|G|G|20060312090300||ADT^A04^ADT_A03|MSG.24|D|2.4
+MSH|^~\&|G|MidTwnUrgentC^2231231234^NPI|G|G|20060312090300||ADT^A03^ADT_A03|MSG.24|D|2.4
 EVN||20040328134602.1234+0600||03
 PID|1||A74332~A74324~A74334||Livingstone\&de^Cindy^Gregory^PhD^^^S||20040328134602.1234+0600|F|||890 South Street\&Sky Blue Court^^Omaha^ND^06001^SWE||(972)765-1994^^^TerryB@steelers.net~(412)446-5423x123~221-0548^^^Elmer.Kramer@bigtree.com~834-5473~(301)191-9999~(214)444-5473|||||A74329||HI253509^G^19991212
 PV1|1|E|^G^G^^G^^G^G|E|||lgeba^Reynolds^Ian|43244^Clemmons^Cindy||||||||||G|A74321|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|100.00|505.00||139.47
 ZEN|0001|2006|G|G||text|G|||2006|2006||G
 
-MSH|^~\&|G|LakeMichMC^9879874000^NPI|G|G|20041214011200||ADT^A04^ADT_A03|MSG.25|D|2.4
+MSH|^~\&|G|LakeMichMC^9879874000^NPI|G|G|20041214011200||ADT^A03^ADT_A03|MSG.25|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74329~A74323~A74329||Manning\&Von\&Mere^Robert^^JR^^^C^A||20040328134602.1234+0600|N|||3 Traveler Court\&First Field Road^^Gaithersburg^IL^33308^WSM||(301)444-5473B951^^^CMoneymaker@poker.org~(301)191-9999^^^richard.lang@alpha.net~(240)765-1214x5924|||||A74323||MD200-5783-978-333^G^200305
 PV1|1|U|G^G^G^^G^S^G|A|||shenr^Beltran^Mary Ann~3472390832^Simmons^David|873473^Simmons^Cindy||||||||||G|A74332|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|897.66|987.00|505.00|698.00
 ZEN|0001|2006|G|G|||G|||200510|19520408||G
 
-MSH|^~\&|G|BgCtyChldrnUrgntCar^1231231234^NPI|G|G|20000803110800||ADT^A04^ADT_A03|MSG.26|D|2.4
+MSH|^~\&|G|BgCtyChldrnUrgntCar^1231231234^NPI|G|G|20000803110800||ADT^A03^ADT_A03|MSG.26|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74325~A74325||Livingston\&la\&Mere\&Van^Cole^K.^JD||20040328134602.1234+0600|A|||12967 Hillendale Road\&Sky Blue Court\&56^^Corolla^FL^90210-1945^WSM||693-3432~(972)666-1992x6444C Press 2|||||A74334||MD200-5783-978-333^G^20050101
 PV1|1|R|G^G^G^^^D^G|R|||5782389473482^Owens^Simon|234894^Reynolds^Kathy||||||||||G|A74334|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|37.00|698.00||2567.87
 ZEN|0001|2006|G|G|G||G|||2006|2006||G
 
-MSH|^~\&|G|PacNWHosED^2481227981^NPI|G|G|20030210020200||ADT^A04^ADT_A03|MSG.27|D|2.4
+MSH|^~\&|G|PacNWHosED^2481227981^NPI|G|G|20030210020200||ADT^A03^ADT_A03|MSG.27|D|2.4
 EVN||20040328134602.1234+0600||03
 PID|1||A74324||Livingstone\&Van\&Mere\&de\&Munson^Cole^Augustus^II^Mrs.^^^P||20040328134602.1234+0600|A|||3 Traveler Court\&Gatehouse Road\&346^^Duck^OH^21754^NPL||(972)233-1992x63741^^^richard.lang@alpha.net~(214)444-5471X7342~(240)765-1214x5924~693-3432^^^sam444@gmail.com|||||A74321||MD200-5783-978-333^G^20040324
 PV1|1|E|^G^G^^^^G^G|L|||1234^Jones^Charlie~Y44^Smith^Ian|K784873^Reinhold^William||||||||||G|A74331|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|698.00|1897.00||239.00
 ZEN|0001|2006|G|G||||||2006|2006|200510|G
 
-MSH|^~\&|G|PacNWHosED^2481227981^NPI|G|G|20110421080400||ADT^A04^ADT_A02|MSG.28|D|2.4
+MSH|^~\&|G|PacNWHosED^2481227981^NPI|G|G|20110421080400||ADT^A02^ADT_A02|MSG.28|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74334~A74332~A74321||Simmons\&Von\&\&la^Kathy||20040328134602.1234+0600|O|||9200 Valley Pike\&Quince Orchard Road^^Jacksonville^NY^15857^DMA||(703)463-9900^^^richard.lang@alpha.net~(814)442-5473x22C After 6:00^^^Nick.K.Burdett@hawks.com|||||A74327||MD200-5783-978-333^G^20040324
 PV1|1|N|G^G^G^^^^G^G^long default text|E|||rsnel^Moss^Charlie~5782389473482^Abbett^Evan|M73244^Manning^Simon||||||||||G|A74334|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|43824.12|1243.00||14.85
 ZEN|0001|2006|G|G|||||G|19520408|200510||G
 
-MSH|^~\&|G|WstrnRgnlMedCntr^1231231235^NPI|G|G|20150504040500||ADT^A04^ADT_A02|MSG.29|D|2.4
+MSH|^~\&|G|WstrnRgnlMedCntr^1231231235^NPI|G|G|20150504040500||ADT^A02^ADT_A02|MSG.29|D|2.4
 EVN||20040328134602.1234+0600||02
 PID|1||A74326||Abbett\&den\&\&Von^Alex^Ellie^^^^^A||20040328134602.1234+0600|O|||35 main Street\&Bureau Drive\&23^^Gaithersburg^OH^90210-1945^BFA||(972)666-1992x6444C Press 2~693-3432^^^TerryB@steelers.net~(412)221-7218~(240)222-1212~(814)442-5473x22C After 6:00^^^Nick.K.Burdett@hawks.com~(412)446-5423x123~(972)666-1992x6444C Press 2|||||A74324||TX5673803249^G^200412
 PV1|1|U|G^G^G^^G^^G^G^long default text|R|||1234^Owens^Wesley~3472390832^Simmons^Austin|bschw^Clemmons^Simon||||||||||G|A74323|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|1897.00|83.34||897.66
 ZEN|0001|19520408|G|G|G|abc||||2006|19520408|2006|G
 
-MSH|^~\&|G|PacNWHosED^2481227981^NPI|G|G|20150709060700||ADT^A04^ADT_A03|MSG.30|D|2.4
+MSH|^~\&|G|PacNWHosED^2481227981^NPI|G|G|20150709060700||ADT^A03^ADT_A03|MSG.30|D|2.4
 EVN||20040328134602.1234+0600||03
 PID|1||A74334~A74327~A74333||Reinhold\&Van\&Von^Kathy^Augustus^III^^^P||20040328134602.1234+0600|F|||3 Traveler Court\&Bureau Drive\&23^^Jacksonville^FL^90210-1945^MDG||818-6438X44~(814)284-9218~(608)885-2312^^^richard.lang@alpha.net~834-5473~818-6438X44^^^jay@yahoo.com~(240)765-1214x5924~834-5473^^^sam444@gmail.com~693-3432|||||A74322||MD200-5783-978-333^G^20060630
 PV1|1|C|G^G^G^^G^^G^G|C|||43244^Clemmons^Evan~732472^Jones^Austin|78231^Clemmons^Charlie||||||||||G|A74334|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|100.00|432.85|698.00|698.00
 ZEN|0001|200510|G|G|||G|||200510|19520408||G
 
-MSH|^~\&|G|BgCtyChldrnUrgntCar^1231231234^NPI|G|G|20010726010700||ADT^A04^ADT_A02|MSG.31|D|2.4
+MSH|^~\&|G|BgCtyChldrnUrgntCar^1231231234^NPI|G|G|20010726010700||ADT^A02^ADT_A02|MSG.31|D|2.4
 EVN||20040328134602.1234+0600||02
 PID|1||A74321~A74323~A74330||Parker\&Van\&den\&la\&Sandstrom^Austin^William^V^Dr.^^S||20040328134602.1234+0600|M|||90867 East Street\&First Field Road\&56^^Gaithersburg^ND^75575-0003^LCA||(814)442-5473x22C After 6:00^^^Nick.K.Burdett@hawks.com~221-0548~(814)284-9218^^^johnG@gmail.com~693-3432^^^jay@yahoo.com~(412)221-7218~(214)444-5473^^^richard.lang@alpha.net|||||A74333||TX5673803249^G^20040324
 PV1|1|E|G^G^G^^^^G^G|U|||1783478753^Simmons^Walter~5782389473482^Manning^Charlie|lgeba^Abbett^Simon||||||||||G|A74325|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|2567.87|698.00||83.34
 ZEN|0001|200510|G|G||||||200510|19520408||G
 
-MSH|^~\&|G|MidTwnUrgentC^2231231234^NPI|G|G|20121003051000||ADT^A04^ADT_A03|MSG.32|D|2.4
+MSH|^~\&|G|MidTwnUrgentC^2231231234^NPI|G|G|20121003051000||ADT^A03^ADT_A03|MSG.32|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74322||Reinhold\&Von\&\&de\&Hessinger^William^S.^^Dr.||20040328134602.1234+0600|O|||9200 Valley Pike\&Gatehouse Road\&23^^Jacksonville^WI^07021^MAR||834-5473^^^cookingwithsue@homecoking.com~834-5473~(301)444-5473B951^^^joe.doe@inatech.com|||||A74328||IN35489768457^G^20060412
 PV1|1|B|^G^G^USCDC^^H^G|E|||873473^Abbett^Edward|Y44^Clemmons^Steven||||||||||G|A74326|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|3897.00|3897.00||239.00
 ZEN|0001|200510|G|G||abc||||2006|19520408||G
 
-MSH|^~\&|G|WstrnRgnlMedCntr^1231231235^NPI|G|G|20171108041100||ADT^A04^ADT_A01|MSG.33|D|2.4
+MSH|^~\&|G|WstrnRgnlMedCntr^1231231235^NPI|G|G|20171108041100||ADT^A01^ADT_A01|MSG.33|D|2.4
 EVN||20040328134602.1234+0600||03
 PID|1||A74330~A74321||Clemmons\&Von\&Van\&\&Little^Charlie||20040328134602.1234+0600|M|||12967 Hillendale Road\&Bureau Drive\&346^^Germantown^ND^07021^NFK||(972)666-1992x6444C Press 2^^^Nick.K.Burdett@hawks.com~(240)765-1214x5924~(214)444-5473^^^sam444@gmail.com~(972)666-1992x6444C Press 2^^^albert.livingston@cmucollege.edu~(301)191-9999~(608)885-2312^^^john28322@aol.net~(814)284-9218|||||A74333||TX5673803249^G^200305
 PV1|1|R|^G^G^^^S^G^G^abc|E|||3472390832^Reinhold^Cindy~78231^Parker^David|20034^Moss^Evan||||||||||G|A74324|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|1897.00|239.00|842.90|842.90
 ZEN|0001|2006|G|G||||G||19520408|2006||G
 
-MSH|^~\&|G|MidWsUnvMC^6462583641^NPI|G|G|20081003081000||ADT^A04^ADT_A02|MSG.34|D|2.4
+MSH|^~\&|G|MidWsUnvMC^6462583641^NPI|G|G|20081003081000||ADT^A02^ADT_A02|MSG.34|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74331~A74322~A74332||Clemmons\&Van\&\&Mere\&Little^Edward^K.||20040328134602.1234+0600|M|||890 South Street\&First Field Road^^Olney^NY^20899^TCD||49 (301)444-5473^^^cookingwithsue@homecoking.com~(412)287-7733^^^joe.doe@inatech.com~818-6438X44~818-6438X44^^^john28322@aol.net~(214)444-5473^^^cookingwithsue@homecoking.com~(972)765-1994^^^TerryB@steelers.net~(412)221-7218^^^sam444@gmail.com~221-4753C local number~818-6438X44~49 (301)444-5473^^^linda@showroom.com|||||A74331||IN35489768457^G^19980319
 PV1|1|C|^G^G^CANNF^^H^G^^abc|A|||cluce^Moss^Charlie|aflav^Livingstone^Simon||||||||||G|A74321|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|37.00|3897.00||897.66
 ZEN|0001|200510|G|G|G||G|||2006|2006||G
 
-MSH|^~\&|G|SthrnMdwstMedCntr^1231231236^NPI|G|G|20050427030400||ADT^A04^ADT_A02|MSG.35|D|2.4
+MSH|^~\&|G|SthrnMdwstMedCntr^1231231236^NPI|G|G|20050427030400||ADT^A02^ADT_A02|MSG.35|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74334||Abbett\&la\&Van\&Mere\&Hessinger^William^Ellen^^^^S^P||20040328134602.1234+0600|U|||12967 Hillendale Road\&Old Frederick Road\&90238^^Corolla^NY^20854^CUB||(412)221-7218^^^richard.lang@alpha.net~233-4422^^^sandy.snow@amtech.org~(240)222-1212~(240)765-1455^^^Sam8493@hotmail.net~(214)444-5473|||||A74333||MD200-5783-978-333^G^200211
 PV1|1|C|^G^G^AUSDVA^^N^G^^abc|R|||234894^Jansen^David|Y44^Beltran^Robert||||||||||G|A74327|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|1243.00|432.85|78.99|505.00
 ZEN|0001|200510|G|G|G|long default text||||2006|2006||G
 
-MSH|^~\&|G|PacNWHosED^2481227981^NPI|G|G|20140524070500||ADT^A04^ADT_A03|MSG.36|D|2.4
+MSH|^~\&|G|PacNWHosED^2481227981^NPI|G|G|20140524070500||ADT^A03^ADT_A03|MSG.36|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74333||Birdseye\&Van\&Von\&den\&Hessinger^Connor^Ellen^II^^^T||20040328134602.1234+0600|A|||90867 East Street\&Old Frederick Road\&523859^^Gaithersburg^WI^20854^TUV||(814)442-5473x22C After 6:00~(301)392-6372^^^joe.doe@inatech.com~221-0548^^^cookingwithsue@homecoking.com~(412)446-5423x123^^^CMoneymaker@poker.org~(972)233-1992x63741|||||A74325||HI253509^G^19980319
 PV1|1|P|^G^G^^^N^G^^abc|A|||873473^Moss^Cindy~shenr^Reynolds^Robert|3472390832^Reinhold^Walter||||||||||G|A74321|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|97.98|100.00||2567.87
 ZEN|0001|200510|G|G|||G|||2006|19520408||G
 
-MSH|^~\&|G|MidWsUnvMC^6462583641^NPI|G|G|20010314070300||ADT^A04^ADT_A01|MSG.37|D|2.4
+MSH|^~\&|G|MidWsUnvMC^6462583641^NPI|G|G|20010314070300||ADT^A01^ADT_A01|MSG.37|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74325||Reinhold\&Van\&de\&\&Fields^Cindy^Douglas^^Dr.^^A||20040328134602.1234+0600|F|||890 South Street\&Old Frederick Road^^Portsmouth^NY^90210-1945^MHL||(214)444-5471X7342^^^CMoneymaker@poker.org~(814)442-5473x22C After 6:00~233-4422^^^TerryB@steelers.net~(240)765-1214x5924^^^Freddie@hotmail.com~(972)233-1992x63741~49 (301)444-5473^^^joe.doe@inatech.com~221-4753C local number~(972)233-1992x63741~(240)765-1214x5924^^^joe.doe@inatech.com|||||A74329||IN35489768457^G^19980319
 PV1|1|U|G^G^G^^^^G|N|||3472390832^Abbett^Kathy|lgeba^Manning^Cindy||||||||||G|A74325|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|35.00|35.00||2567.87
 ZEN|0001|200510|G|G||||G|G|2006|200510||G
 
-MSH|^~\&|G|BgCtyChldrnUrgntCar^1231231234^NPI|G|G|20100512040500||ADT^A04^ADT_A03|MSG.38|D|2.4
+MSH|^~\&|G|BgCtyChldrnUrgntCar^1231231234^NPI|G|G|20100512040500||ADT^A03^ADT_A03|MSG.38|D|2.4
 EVN||20040328134602.1234+0600||02
 PID|1||A74327||Birdseye\&Von^Connor^Randall^IV^Ms.^^B^I||20040328134602.1234+0600|O|||890 South Street\&Quince Orchard Road\&87654^^Olney^FL^75575-0003^AND||(972)666-1992x6444C Press 2~(240)765-1455^^^Sam8493@hotmail.net|||||A74329||MD200-5783-978-333^G^19991212
 PV1|1|E|^G^G^^^^G|L|||shenr^Reynolds^Evan|732472^Livingston^David||||||||||G|A74321|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|139.47|62.33||97.98
 ZEN|0001|200510|G|G||||||19520408|200510||G
 
-MSH|^~\&|G|SthrnMdwstMedCntr^1231231236^NPI|G|G|20100704020700||ADT^A04^ADT_A02|MSG.39|D|2.4
+MSH|^~\&|G|SthrnMdwstMedCntr^1231231236^NPI|G|G|20100704020700||ADT^A02^ADT_A02|MSG.39|D|2.4
 EVN||20040328134602.1234+0600||03
 PID|1||A74331~A74334||Abbett\&la\&Von\&Van^Evan^^IV^Miss||20040328134602.1234+0600|A|||12967 Hillendale Road\&First Field Road^^Newtown^VA^65982-0023^HKG||(301)444-5473B951^^^jay@yahoo.com~(972)666-1992x6444C Press 2^^^joe.doe@inatech.com~(608)885-2312^^^TerryB@steelers.net~(972)444-2222^^^john28322@aol.net~(703)463-9900~(214)444-5473~(972)444-2222^^^CMoneymaker@poker.org|||||A74334||TX5673803249^G^20060630
 PV1|1|O|G^G^G^^G^^G^G|R|||1783478753^Abbett^Mary Ann|78231^Smith^Robert||||||||||G|A74332|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|100.00|62.33||62.33
 ZEN|0001|200510|G|G|G|||||200510|19520408||G
 
-MSH|^~\&|G|LakeMichMC^9879874000^NPI|G|G|20160225100200||ADT^A04^ADT_A03|MSG.40|D|2.4
+MSH|^~\&|G|LakeMichMC^9879874000^NPI|G|G|20160225100200||ADT^A03^ADT_A03|MSG.40|D|2.4
 EVN||20040328134602.1234+0600||02
 PID|1||A74334||Reinhold\&den\&\&\&Kittinger^Cindy^Ellie^^^^^A||20040328134602.1234+0600|F|||12967 Hillendale Road\&Sky Blue Court^^Gaithersburg^KY^20874^ZMB||(301)444-5473B951^^^sam444@gmail.com~(214)444-5473^^^joe.doe@inatech.com~(412)221-7218^^^MaryKay8432@nist.gov|||||A74329||TX5673803249^G^20060630
 PV1|1|N|G^G^G^CANNT^^H^G^G^abc|C|||20034^Moss^Simon~lgeba^Beltran^Ian|5782389473482^Parker^Robert||||||||||G|A74326|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|43824.12|505.00||100.00
 ZEN|0001|200510|G|G||long default text||G||200510|200510||G
 
-MSH|^~\&|G|SmvUrgentC^3231231234^NPI|G|G|20040708060700||ADT^A04^ADT_A01|MSG.41|D|2.4
+MSH|^~\&|G|SmvUrgentC^3231231234^NPI|G|G|20040708060700||ADT^A01^ADT_A01|MSG.41|D|2.4
 EVN||20040328134602.1234+0600||03
 PID|1||A74326~A74332~A74330||Livingston\&Von\&\&Van\&Kittinger^Ian^Marie^^^^L^A||20040328134602.1234+0600|O|||890 South Street\&Bureau Drive^^Lansing^IL^33308^ERI||(703)463-9900^^^TerryB@steelers.net~221-0548~221-4753C local number^^^sandy.snow@amtech.org~834-5473^^^john28322@aol.net~693-3432^^^sam444@gmail.com~(972)233-1992x63741^^^johnG@gmail.com~(412)446-5423x123~(214)444-5473^^^linda@showroom.com|||||A74334||IN35489768457^G^19991212
 PV1|1|P|G^G^G^AUSHIC^^^G^G^X|C|||aflav^Beltran^Simon~43244^Jansen^Wesley|shenr^Beltran^Evan||||||||||G|A74322|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|97.98|100.00|35.00|139.47
 ZEN|0001|2006|G|G||abc|||G|200510|19520408||G
 
-MSH|^~\&|G|MidWsUnvMC^6462583641^NPI|G|G|20020602090600||ADT^A04^ADT_A01|MSG.42|D|2.4
+MSH|^~\&|G|MidWsUnvMC^6462583641^NPI|G|G|20020602090600||ADT^A01^ADT_A01|MSG.42|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74327~A74328~A74324||Jones\&Von\&den^Ian^Marie^MD||20040328134602.1234+0600|A|||9200 Valley Pike\&Bureau Drive^^Topeka^MD^41123-9847^FIN||(412)221-7218^^^cookingwithsue@homecoking.com|||||A74325||MD200-5783-978-333^G^19980319
 PV1|1|E|^G^G^^^^G^G|E|||78231^Reinhold^Charlie~5782389473482^Beltran^Austin|1234^Jones^Robert||||||||||G|A74323|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|1243.00|35.00||100.00
 ZEN|0001|19520408|G|G|||G|||200510|200510||G
 
-MSH|^~\&|G|SthrnMdwstMedCntr^1231231236^NPI|G|G|20020911050900||ADT^A04^ADT_A02|MSG.43|D|2.4
+MSH|^~\&|G|SthrnMdwstMedCntr^1231231236^NPI|G|G|20020911050900||ADT^A02^ADT_A02|MSG.43|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74332~A74325||Livingstone\&Von\&Van\&\&Needham^Evan^^MD^Dr.^^S||20040328134602.1234+0600|U|||12345 Palmer Avenue\&Clopper Road\&56^^Portsmouth^CA^06001^DJI||49 (301)444-5473^^^CMoneymaker@poker.org~(240)222-1212~(240)765-1455^^^sam444@gmail.com~834-5473^^^albert.livingston@cmucollege.edu~(214)444-5471X7342|||||A74333||IN35489768457^G^20060412
 PV1|1|N|G^G^G^^G^^G^^long default text|A|||K784873^Beltran^Evan|43244^Manning^David||||||||||G|A74333|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|987.00|97.98||78.99
 ZEN|0001|2006|G|G||||||2006|2006||G
 
-MSH|^~\&|G|WstrnRgnlMedCntr^1231231235^NPI|G|G|20180226120200||ADT^A04^ADT_A03|MSG.44|D|2.4
+MSH|^~\&|G|WstrnRgnlMedCntr^1231231235^NPI|G|G|20180226120200||ADT^A03^ADT_A03|MSG.44|D|2.4
 EVN||20040328134602.1234+0600||03
 PID|1||A74325~A74326||Smith\&la\&la\&de\&Needham^Simon^^^Madame^^N^A||20040328134602.1234+0600|M|||12345 Palmer Avenue\&Sky Blue Court^^Corolla^OR^65982-0023^LTU||(214)444-5473^^^albert.livingston@cmucollege.edu~(412)287-7733|||||A74330||HI253509^G^20060630
 PV1|1|N|^G^G^^G^H^G^G^X|L|||aflav^Smith^Ian~234894^Owens^Cindy|732472^Livingstone^Cole||||||||||G|A74332|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|2567.87|1243.00|1897.00|698.00
 ZEN|0001|200510|G|G||||||200510|19520408||G
 
-MSH|^~\&|G|MidWsUnvMC^6462583641^NPI|G|G|20150326080300||ADT^A04^ADT_A01|MSG.45|D|2.4
+MSH|^~\&|G|MidWsUnvMC^6462583641^NPI|G|G|20150326080300||ADT^A01^ADT_A01|MSG.45|D|2.4
 EVN||20040328134602.1234+0600||02
 PID|1||A74330~A74324||Manning\&de\&den^Evan^^V^Dr.^^^A||20040328134602.1234+0600|O|||90867 East Street\&First Field Road\&23^^Lansing^VT^22176-1899^MKD||693-3432~221-4753C local number^^^linda@showroom.com~(412)221-7218^^^Sam8493@hotmail.net~(301)191-9999^^^RonnieBrown@gmail.com~(240)765-1214x5924|||||A74322||HI253509^G^19991212
 PV1|1|C|^G^G^CANMB^^S^G^G^abc|R|||873473^Johnson^Ian|M73244^Moss^Austin||||||||||G|A74322|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|897.66|3897.00||35.00
 ZEN|0001|200510|G|G||||||19520408|2006||G
 
-MSH|^~\&|G|BgCtyChldrnUrgntCar^1231231234^NPI|G|G|20080705040700||ADT^A04^ADT_A01|MSG.46|D|2.4
+MSH|^~\&|G|BgCtyChldrnUrgntCar^1231231234^NPI|G|G|20080705040700||ADT^A01^ADT_A01|MSG.46|D|2.4
 EVN||20040328134602.1234+0600||02
 PID|1||A74331~A74331||Simmons\&la\&Von^Cole^Douglas^^Madame^^T^P||20040328134602.1234+0600|O|||75670 Green Way\&Clopper Road^^Gaithersburg^IL^75575-0003^VCT||(412)221-7218^^^johnG@gmail.com~(608)885-2312~(240)222-1212~(972)444-2222~(814)442-5473x22C After 6:00~(814)284-9218^^^albert.livingston@cmucollege.edu~(412)446-5423x123~(412)287-7733~221-0548~(301)392-6372^^^sandy.snow@amtech.org|||||A74321||IN35489768457^G^20040324
 PV1|1|P|^G^G^^^^G^G|E|||234894^Beltran^Cole~78231^Simmons^Ian|rsnel^Beltran^Alex||||||||||G|A74331|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|1243.00|100.00||78.99
 ZEN|0001|19520408|G|G||||||200510|19520408||G
 
-MSH|^~\&|G|WstrnRgnlMedCntr^1231231235^NPI|G|G|20030718030700||ADT^A04^ADT_A02|MSG.47|D|2.4
+MSH|^~\&|G|WstrnRgnlMedCntr^1231231235^NPI|G|G|20030718030700||ADT^A02^ADT_A02|MSG.47|D|2.4
 EVN||20040328134602.1234+0600||01
 PID|1||A74334~A74324~A74328||Reinhold\&Mere\&\&\&Fields^Cole^Ellen^PhD^Sir^^S||20040328134602.1234+0600|F|||12345 Palmer Avenue\&Sky Blue Court^^Topeka^VA^41123-9847^UMI||(814)284-9218~(814)284-9218|||||A74324||MD200-5783-978-333^G^200211
 PV1|1|N|G^G^G^^^^G^G^text|C|||Y44^Livingston^Mary Ann~aflav^Beltran^David|5782389473482^Livingstone^Wesley||||||||||G|A74332|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|842.90|78.99||139.47
@@ -6353,4 +6345,3 @@ EVN||20040328134602.1234+0600||03
 PID|1||A74322~A74328~A74323||Jones\&Mere\&de\&den^Simon^^PhD^Dr.||20040328134602.1234+0600|U|||3 Traveler Court\&Sky Blue Court\&87654^^Lansing^IL^20854^PRY||693-3432~(972)444-2222~221-0548^^^linda@showroom.com~(240)222-1212^^^RonnieBrown@gmail.com~(608)885-2312~(972)666-1992x6444C Press 2~233-4422^^^johnG@gmail.com~(412)446-5423x123^^^richard.lang@alpha.net~(608)885-2312~(972)233-1992x63741^^^TerryB@steelers.net|||||A74328||MD200-5783-978-333^G^20060630
 PV1|1|O|G^G^G^USHCFA^^^G^G|E|||lgeba^Moss^Robert|234894^Parker^Austin||||||||||G|A74328|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|3897.00|897.66||3897.00
 EN|0001|2006|G|G||abc|G|||2006|200510||G
-

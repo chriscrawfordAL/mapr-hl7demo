@@ -2,7 +2,7 @@ import sys, datetime, time, json, os, hashlib, requests
 
 os.environ['LD_LIBRARY_PATH'] = "$LD_LIBRARY_PATH:/opt/mapr/lib"
 # Since the above doesn't seem to work:
-ask = raw_input("did you set export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/mapr/lib or source .bashrc?")
+#ask = raw_input("did you set export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/mapr/lib or source .bashrc?")
 
 from confluent_kafka import Producer, Consumer, KafkaError
 
@@ -13,9 +13,10 @@ from mapr.ojai.storage.ConnectionFactory import ConnectionFactory
 os.environ['LD_LIBRARY_PATH'] = "$LD_LIBRARY_PATH:/opt/mapr/lib"
 
 # Create a connection to the mapr-db:
-host = raw_input("DAG host:")
+#host = raw_input("DAG host:")
+host = "dag"
 username = "mapr"
-password = "maprmapr18"
+password = "maprmapr"
 tbl_path = "/demos/hl7demo/hl7table"
 
 def incrementCount():
@@ -26,11 +27,14 @@ def incrementCount():
     data = '{"$increment":{"count":1}}'
 
     requests.post(
-        'https://mapr02.wired.carnoustie:8243/api/v2/table/%2Fdemos%2Fhl7demo%2FtotalMsgCount/document/allMessages',
-        headers=headers, data=data, verify=False, auth=('mapr', 'maprmapr18'))
+        'https://dag:8243/api/v2/table/%2Fdemos%2Fhl7demo%2FtotalMsgCount/document/allMessages',
+        headers=headers, data=data, verify=False, auth=('mapr', 'maprmapr'))
 
-#connection_str = "{}:5678?auth=basic;user={};password={};ssl=false".format(host,username,password)
-connection_str = "{}:5678?auth=basic;user={};password={};ssl=true;sslCA=/opt/mapr/conf/ssl_truststore.pem;sslTargetNameOverride={}".format(host,username,password,host)
+#UNSECURED connection string
+connection_str = "{}:5678?auth=basic;user={};password={};ssl=false".format(host,username,password)
+#SECURED connection string
+#connection_str = "{}:5678?auth=basic;user={};password={};ssl=true;sslCA=/opt/mapr/conf/ssl_truststore.pem;sslTargetNameOverride={}".format(host,username,password,host)
+
 connection = ConnectionFactory.get_connection(connection_str=connection_str)
 
 # Get a store and assign it as a DocumentStore object
@@ -89,7 +93,7 @@ while running:
 
         # Increment Document Processed Counter
         incrementCount()
-        time.sleep(5)
+        time.sleep(2)
       
     elif msg.error().code() != KafkaError._PARTITION_EOF:
         print(msg.error())

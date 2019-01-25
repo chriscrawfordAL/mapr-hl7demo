@@ -1,7 +1,6 @@
 import time
 import json
 
-# noinspection PyUnresolvedReferences
 from confluent_kafka import Producer
 from hl7_to_dict import hl7_str_to_dict
 
@@ -27,4 +26,4 @@ with open("../datasets/hl7_records.txt") as f:
             # Or - just do a json.dumps(your_json) instead of str_msg
             p.flush()
             str_msg=''
-            time.sleep(5)
+            time.sleep(2)
