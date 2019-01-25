@@ -1,4 +1,4 @@
-MSH|^~\&|Test EHR Application|MidTwnUrgentC^2231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-001.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|MidTwnUrgentC^2231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A04|NIST-IZ-001.00|P|2.5.1|||AL|ER
 PID|1||D26376273^^^NIST MPI^MR||Snow^Madelynn^Ainsley^^^^L|Lam^Morgan|20070706|F||2076-8^Native Hawaiian or Other Pacific Islander^CDCREC|32 Prescott Street Ave^^Warwick^MA^02452^USA^L||^PRN^PH^^^657^5558563|||||||||2186-5^non Hispanic or Latino^CDCREC
 PD1|||||||||||02^Reminder/Recall - any method^HL70215|||||A|20120701|20120701
 NK1|1|Lam^Morgan^^^^^L|MTH^Mother^HL70063|32 Prescott Street Ave^^Warwick^MA^02452^USA^L|^PRN^PH^^^657^5558563
@@ -16,7 +16,7 @@ PID|1||A74322~A74327~A74325||Johnson\&la\&\&\&Hessinger^Wesley^Ellie^PhD||200403
 PV1|1|P|G^G^G^^^N^G^G|L|||873473^Parker^Walter~bschw^Reynolds^David|M73244^Clemmons^Simon||||||||||G|A74328|||||||||||||||||||||||||20040328134602.1234+0600|20040328134602.1234+0600|987.00|139.47|3897.00|43824.12
 ZEN|0001|2006|G|G|||||G|19520408|200510||G
 
-MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar^1231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-002.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar^1231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A03|NIST-IZ-002.00|P|2.5.1|||AL|ER
 PID|1||D26376281^^^NIST MPI^MR||Marsh^Tierney^Beacher^^^^L|Lucas^Morgan|20100814|M||2076-8^Native Hawaiian or Other Pacific Islander^HL70005|10 Huntington Rd^^Brockton^MA^16080^USA^L||^PRN^PH^^^379^5559369|||||||||2186-5^non Hispanic or Latino^CDCREC
 PD1|||||||||||02^Reminder/Recall - any method^HL70215|||||A|20120701|20120701
 NK1|1|Lucas^Morgan^^^^^L|MTH^Mother^HL70063|32 Prescott Street Ave^^Warwick^MA^02452^USA^L|^PRN^PH^^^657^5558563
@@ -28,7 +28,7 @@ OBX|2|CE|30956-7^vaccine type^LN|2|88^Influenza, unspecified formulation^CVX||||
 OBX|3|TS|29768-9^Date vaccine information statement published^LN|2|20120702||||||F
 OBX|4|TS|29769-7^Date vaccine information statement presented^LN|2|20120814||||||F
 
-MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar^1231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-003.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar^1231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A01|NIST-IZ-003.00|P|2.5.1|||AL|ER
 PID|1||D26376301^^^MAA^MR||Deschutes^Brooklyn^Dolly^^^^L|Dewey^Dona|20100826|F||2076-8^Native Hawaiian or Other Pacific Islander^HL70005|902 Pacific St^^Orleans^MA^20540^USA^L||^PRN^PH^^^790^5553151|||||||||2186-5^non Hispanic or Latino^CDCREC
 PD1|||||||||||02^Reminder/Recall - any method^HL70215|||||A|20120701|20120701
 NK1|1|Dewey^Dona^^^^^L|MTH^Mother^HL70063|32 Prescott Street Ave^^Warwick^MA^02452^USA^L|^PRN^PH^^^657^5558563
@@ -40,7 +40,7 @@ OBX|2|CE|30956-7^vaccine type^LN|2|88^Influenza, unspecified formulation^CVX||||
 OBX|3|TS|29768-9^Date vaccine information statement published^LN|2|20120702||||||F
 OBX|4|TS|29769-7^Date vaccine information statement presented^LN|2|20120816||||||F
 
-MSH|^~\&|Test EHR Application|SmvUrgentC^3231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-004.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|SmvUrgentC^3231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A02|NIST-IZ-004.00|P|2.5.1|||AL|ER
 PID|1||MR-76732^^^NIST MPI^MR~184-36-9200^^^MAA^SS||Vally^Nitika^^^^^L||19410813|F|||||^~^NET^^nvally@fastmail.com
 ORC|RE||IZ-783275^NDA|||||||||57422^RADON^NICHOLAS^^^^^^NDA^L
 RXA|0|1|20120814||52^Hep A^CVX|1|mL^MilliLiter [SI Volume Units]^UCUM||00^New immunization record^NIP001||^^^F28||||I90FV|20121214|MSD^Merck and Co^MVX|||CP|A
@@ -50,7 +50,7 @@ OBX|2|TS|29768-9^Date vaccine information statement published^LN|2|20111025|||||
 OBX|3|CE|30956-7^vaccine type^LN|2|85^Hepatitis A^CVX||||||F
 OBX|4|TS|29769-7^Date vaccine information statement presented^LN|2|20120814||||||F
 
-MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-005.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|PacNWHosED||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A04|NIST-IZ-005.00|P|2.5.1|||AL|ER
 PID|1||MR-1789^^^MAA^MR~184-15-3421^^^MAA^SS||Cimarron^Ottoline^^^^^L||19410717|F|||||^~^NET^^Ottoline@hotmail.com
 ORC|RE||IZ-783275^NDA|||||||||57422^RADON^NICHOLAS^^^^^^NDA^L
 RXA|0|1|20120814||52^Hep A^CVX|1|mL^MilliLiter [SI Volume Units]^UCUM||00^New immunization record^NIP001||^^^F28||||I90FV|20121214|MSD^Merck and Co^MVX|||CP|A
@@ -60,7 +60,7 @@ OBX|2|CE|30956-7^vaccine type^LN|2|85^Hepatitis A^CVX||||||F
 OBX|3|TS|29768-9^Date vaccine information statement published^LN|2|20111025||||||F
 OBX|4|TS|29769-7^Date vaccine information statement presented^LN|2|20120814||||||F
 
-MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-006.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A01|NIST-IZ-006.00|P|2.5.1|||AL|ER
 PID|1||MR-356^^^MAA^MR~184-25-4562^^^MAA^SS||Quinla^Eisig^^^^^L||19410714|M|||||^~^NET^^Eisig@hotmail.com
 ORC|RE||IZ-783275^NDA|||||||||57422^RADON^NICHOLAS^^^^^^NDA^L
 RXA|0|1|20120816||115^Tdap^CVX|0.5|mL^MilliLiter [SI Volume Units]^UCUM||00^New immunization record^NIP001||^^^0||||Z79YG|20121216|SKB^GlaxoSmithKline^MVX|||CP|A
@@ -70,73 +70,73 @@ OBX|2|CE|30956-7^vaccine type^LN|2|139^Td(adult) unspecified formulation^CVX||||
 OBX|3|TS|29768-9^Date vaccine information statement published^LN|2|20130509||||||F
 OBX|4|TS|29769-7^Date vaccine information statement presented^LN|2|20120816||||||F
 
-MSH|^~\&|Test EHR Application||BgCtyChldrnUrgntCar^1231231234^NPI|NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-007.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application||BgCtyChldrnUrgntCar^1231231234^NPI|NIST Test Iz Reg|201207010822||ADT^A04^ADT_A01|NIST-IZ-007.00|P|2.5.1|||AL|ER
 PID|1||MR-99922^^^NIST MPI^MR||Montgomery^Lewis^^^^^L||20010821|M
 ORC|RE||IZ-783276^NDA
 RXA|0|1|20110215||118^HPV^CVX|999|||01^Historical information - source unspecified^NIP001
 
-MSH|^~\&|Test EHR Application|MidTwnUrgentC^2231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-008.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|MidTwnUrgentC^2231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A02|NIST-IZ-008.00|P|2.5.1|||AL|ER
 PID|1||456^^^MAA^MR||Denton^Blakeley^^^^^L||20010824|M
 ORC|RE||IZ-783276^NDA
 RXA|0|1|20110214||115^Tdap^CVX|999|||01^Historical information - source unspecified^NIP001
 
-MSH|^~\&|Test EHR Application|SmvUrgentC^3231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-009.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|SmvUrgentC^3231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A03|NIST-IZ-009.00|P|2.5.1|||AL|ER
 PID|1||656^^^MAA^MR||Lubbock^Wyuna^^^^^L||20010831|F
 ORC|RE||IZ-783276^NDA
 RXA|0|1|20110215||83^Hep A^CVX|999|||01^Historical information - source unspecified^NIP001
 
-MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-010.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|LakeMichMC||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A01|NIST-IZ-010.00|P|2.5.1|||AL|ER
 PID|1||X-6523^^^NIST MPI^MR||Newton^Lea^^^^^L||20010905|F
 PD1||||||||||||N|20120701
 ORC|RE||IZ-783277^NDA
 RXA|0|1|20110214||115^Tdap^CVX|999|||01^Historical information - source unspecified^NIP001
 
-MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-011.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|LakeMichMC||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A01|NIST-IZ-011.00|P|2.5.1|||AL|ER
 PID|1||5678^^^MAA^MR||Larsen^Hilzarie^^^^^L||20010823|F
 PD1||||||||||||N|20120701
 ORC|RE||IZ-783277^NDA
 RXA|0|1|20110214||115^Tdap^CVX|999|||01^Historical information - source unspecified^NIP001
 
-MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-012.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|PacNWHosED||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A04|NIST-IZ-012.00|P|2.5.1|||AL|ER
 PID|1||45335^^^MAA^MR||Pierce^Rianna^^^^^L||20010813|F
 PD1||||||||||||N|20120701
 ORC|RE||IZ-783277^NDA
 RXA|0|1|20110214||118^HPV^CVX|999|||01^Historical information - source unspecified^NIP001
 
-MSH|^~\&|Test EHR Application|MidTwnUrgentC^2231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-013.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|MidTwnUrgentC^2231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A04|NIST-IZ-013.00|P|2.5.1|||AL|ER
 PID|1||MR-67323^^^NIST MPI^MR||Fleming^Chad^^^^^L||20100830|M
 ORC|RE||9999^CDC
 RXA|0|1|20120815||03^MMR^CVX|999||||||||||||00^Parental Refusal^NIP002||RE
 
-MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-014.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|MidTwnUrgentC||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A03|NIST-IZ-014.00|P|2.5.1|||AL|ER
 PID|1||24572457^^^MAA^MR||Santa Barbara^Naretha^^^^^L||20100831|F
 ORC|RE||9999^CDC
 RXA|0|1|20120815||03^MMR^CVX|999||||||||||||00^Parental Refusal^NIP002||RE
 
-MSH|^~\&|Test EHR Application|SmvUrgentC^3231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-015.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|SmvUrgentC^3231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A02|NIST-IZ-015.00|P|2.5.1|||AL|ER
 PID|1||23546138^^^MAA^MR||Jones^Braz^^^^^L||20100907|M
 ORC|RE||9999^CDC
 RXA|0|1|20120815||03^MMR^CVX|999||||||||||||00^Parental Refusal^NIP002||RE
 
-MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-016.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|LakeMichMC||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A02|NIST-IZ-016.00|P|2.5.1|||AL|ER
 PID|1||MR-11891^^^NIST MPI^MR||Wolfe^Aron^^^^^L||20010907|M
 ORC|RE||9999^CDC
 RXA|0|1|20110215||998^No vaccine administered^CVX|999||||||||||||||NA
 OBX|1|CE|59784-9^Disease with presumed immunity^LN|1|38907003^Varicella infection^SCT||||||F
 
-MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar^1231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-017.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar^1231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A03|NIST-IZ-017.00|P|2.5.1|||AL|ER
 PID|1||MR-10791^^^NIST MPI^MR||Riverside^Jezebel^^^^^L||20110901|F
 ORC|RE||9999^CDC
 RXA|0|1|20120216||998^No vaccine administered^CVX|999||||||||||||||NA
 OBX|1|CE|59784-9^Disease with presumed immunity^LN|1|38907003^Varicella infection^SCT||||||F
 
-MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-018.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|MidTwnUrgentC||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A03|NIST-IZ-018.00|P|2.5.1|||AL|ER
 PID|1||MR-10581^^^NIST MPI^MR||Buckshorn^Ankita^^^^^L||20010829|F
 ORC|RE||9999^CDC
 RXA|0|1|20110215||998^No vaccine administered^CVX|999||||||||||||||NA
 OBX|1|CE|59784-9^Disease with presumed immunity^LN|1|38907003^Varicella infection^SCT||||||F
 
-MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-019.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A03|NIST-IZ-019.00|P|2.5.1|||AL|ER
 PID|1||Q-73221^^^NIST MPI^MR||Mercer^Jirra^Emmanuelle^^^^L||20100907|F
 ORC|RE||IZ-783278^NDA|||||||||57422^RADON^NICHOLAS^^^^^^NDA^L
 RXA|0|1|20120816||141^Influenza^CVX|0.25|mL^MilliLiter [SI Volume Units]^UCUM||00^New immunization record^NIP001||||||K5094SC|20121216|PMC^sanofi pasteur^MVX|||CP|A
@@ -161,7 +161,7 @@ OBX|8|CE|30956-7^vaccine type^LN|4|17^Hib^CVX||||||F
 OBX|9|TS|29768-9^Date vaccine information statement published^LN|4|19981216||||||F
 OBX|10|TS|29769-7^Date vaccine information statement presented^LN|4|20120816||||||F
 
-MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar^1231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-020.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|BgCtyChldrnUrgntCar^1231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A04|NIST-IZ-020.00|P|2.5.1|||AL|ER
 PID|1||262627^^^MAA^MR||Umatilla^Salima^Kailyn^^^^L||20100824|F
 ORC|RE||IZ-783278^NDA|||||||||57422^RADON^NICHOLAS^^^^^^NDA^L
 RXA|0|1|20120814||140^Influenza^CVX|0.25|mL^MilliLiter [SI Volume Units]^UCUM||00^New immunization record^NIP001||||||D6992FF|20121214|PMC^sanofi pasteur^MVX|||CP|A
@@ -186,7 +186,7 @@ OBX|8|CE|30956-7^vaccine type^LN|4|17^Hib^CVX||||||F
 OBX|9|TS|29768-9^Date vaccine information statement published^LN|4|19981216||||||F
 OBX|10|TS|29769-7^Date vaccine information statement presented^LN|4|20120814||||||F
 
-MSH|^~\&|Test EHR Application|SmvUrgentC^3231231234^NPI||NIST Test Iz Reg|201207010822||ADT^V04^ADT_V04|NIST-IZ-020.00|P|2.5.1|||AL|ER
+MSH|^~\&|Test EHR Application|SmvUrgentC^3231231234^NPI||NIST Test Iz Reg|201207010822||ADT^A04^ADT_A04|NIST-IZ-020.00|P|2.5.1|||AL|ER
 PID|1||252430^^^MAA^MR||Curry^Qiang^Trystan^^^^L||20090819|M
 ORC|RE||IZ-783278^NDA|||||||||57422^RADON^NICHOLAS^^^^^^NDA^L
 RXA|0|1|20120814||140^Influenza^CVX|0.5|mL^MilliLiter [SI Volume Units]^UCUM||00^New immunization record^NIP001||||||W1356FE|20121214|SKB^GlaxoSmithKline^MVX|||CP|A
