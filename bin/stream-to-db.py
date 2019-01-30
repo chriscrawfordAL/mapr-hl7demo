@@ -79,7 +79,7 @@ while running:
             if 'id_number' in msg_json['patient_identifier_list']:
                 pidlist = msg_json['patient_identifier_list']['id_number']['st']
                 hashId=hashlib.sha224(pidlist).hexdigest()
-            elif 'id' in msg_json['patient_identififer_list']:
+            elif 'id' in msg_json['patient_identifier_list']:
                 pidlist = msg_json['patient_identifier_list']['id']['st']
                 hashId=hashlib.sha224(pidlist).hexdigest()
 
@@ -93,7 +93,7 @@ while running:
 
         # Increment Document Processed Counter
         incrementCount()
-        time.sleep(2)
+#        time.sleep(2)
       
     elif msg.error().code() != KafkaError._PARTITION_EOF:
         print(msg.error())

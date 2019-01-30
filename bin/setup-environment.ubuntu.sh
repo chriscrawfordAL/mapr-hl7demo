@@ -55,9 +55,16 @@ hadoop fs -put datasets/totalMsgCount.json /tmp
 mapr importJSON -src /tmp/hospitalsAndBedCounts.json -dst /demos/hl7demo/d3/barChartCount
 mapr importJSON -src /tmp/totalMsgCount.json -dst /demos/hl7demo/totalMsgCount
 
+#Insert edge FQDN into DASHBOARD Webserver
+sed -i "s/localhost/edge-${DEPLOYMENT_HASH}.se.corp.maprtech.com/g" dashboard/js/d3index.js
+sed -i "s/localhost/edge-${DEPLOYMENT_HASH}.se.corp.maprtech.com/g" dashboard/index.html
+
 #Start Node.JS Webserver
-npm start --prefix webserver/
+npm start --prefix webserver/ &
+
+#Start DASHBOARD Webserver
+node dashboard/webserver.js &
 
 #Start consumers
-python bin/stream-to-db.py
-python bin/adt_count.py
+python bin/stream-to-db.py &
+python bin/adt_count.py &

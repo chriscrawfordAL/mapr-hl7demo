@@ -30,7 +30,7 @@
             <script type="module">
 
                 var inter = async function getMessagesCount() {
-                    const allMessagesCount = 'http://localhost:1337/allMessagesCount';
+                    const allMessagesCount = 'http://edge-7sekhc.se.corp.maprtech.com:1337/allMessagesCount';
                     try {
                         const result = await fetch(`${allMessagesCount}`)
                             .then(function(res) {
@@ -56,7 +56,7 @@
                 <script type="module">
     
                     var inter = async function getMessagesCount() {
-                        const allMessagesCount = 'http://localhost:1337/adtMessagesCount';
+                        const allMessagesCount = 'http://edge-7sekhc.se.corp.maprtech.com:1337/adtMessagesCount';
                         try {
                             const result = await fetch(`${allMessagesCount}`)
                                 .then(function(res) {
@@ -108,7 +108,7 @@
                 //import axios from './node_modules/axios';
 
                 async function getLiveStream(query) {
-                    const liveStream = 'http://localhost:1337/liveStream';
+                    const liveStream = 'http://edge-7sekhc.se.corp.maprtech.com:1337/liveStream';
                     try {
                         //const result = await axios(`${proxy}https://www.food2fork.com/api/search?key=${key}&q=${query}`);
                         //console.log(result.data.recipes);

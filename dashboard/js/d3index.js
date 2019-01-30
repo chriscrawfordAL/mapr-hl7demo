@@ -68,7 +68,7 @@ const yAxis = d3.axisLeft(y)
 
 async function getDB () {
     try {
-        const result = await fetch('http://localhost:1337');
+        const result = await fetch('http://edge-7sekhc.se.corp.maprtech.com:1337');
         const maprDb = await result.json();
         //console.log(maprDb);
         return maprDb;
