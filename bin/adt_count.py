@@ -43,6 +43,10 @@ def update(location, crud):
         location = 'LakeMichMC'
     elif location == 'WstrnRgnlMedCntr':
         location = 'MidTwnUrgentC'
+    elif location == 'MSG.51':
+        location = 'LakeMichMC'
+    elif location == 'G':
+        location = 'SthrnMdwstMedCntr'
 
     if crud == 'ADT_A01':
         data = '{"$increment":{"openBeds":1}}'
