@@ -36,24 +36,13 @@ def update(location, crud):
         'Content-Type': 'application/json',
     }
 
-    if location == 'MidWsUnvMC':
-        location = 'MED_BAY_1'
-    elif location == 'BgCtyChldrnUrgntCar':
-        location = 'MED_BAY_2'
-    elif location == 'LakeMichMC':
-        location = 'MED_BAY_3'
-    elif location == 'MidTwnUrgentC':
-        location = 'MED_BAY_4'
-    elif location == 'PacNWHosED':
-        location = 'MED_BAY_5'
-    elif location == 'SmvUrgentC':
-        location = 'MED_BAY_' + str(random.randint(1, 5))
+
+    if location == 'BgCtyChldrnUrgntCar':
+        location = 'MidWsUnvMC'
     elif location == 'SthrnMdwstMedCntr':
-        location = 'MED_BAY_' + str(random.randint(1, 5))
+        location = 'LakeMichMC'
     elif location == 'WstrnRgnlMedCntr':
-        location = 'MED_BAY_' + str(random.randint(1, 5))
-    else:
-        location = 'MED_BAY_' + str(random.randint(1, 5))
+        location = 'MidTwnUrgentC'
 
     if crud == 'ADT_A01':
         data = '{"$increment":{"openBeds":1}}'
