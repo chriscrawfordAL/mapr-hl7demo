@@ -1,22 +1,22 @@
 [
     {
-        "_id": "MED_BAY_1",
-        "openBeds": 20
+        "_id": "MidWsUnvMC",
+        "openBeds": 8
     },
     {
-        "_id": "MED_BAY_2",
-        "openBeds": 20
+        "_id": "LakeMichMC",
+        "openBeds": 8
     },
     {
-        "_id": "MED_BAY_3",
-        "openBeds": 20
+        "_id": "MidTwnUrgentC",
+        "openBeds": 8
     },
     {
-        "_id": "MED_BAY_4",
-        "openBeds": 20
+        "_id": "PacNWHosED",
+        "openBeds": 8
     },
     {
-        "_id": "MED_BAY_5",
-        "openBeds": 20
+        "_id": "SmvUrgentC",
+        "openBeds": 8
     }
 ]
