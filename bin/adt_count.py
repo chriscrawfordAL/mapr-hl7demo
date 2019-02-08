@@ -35,16 +35,23 @@ def update(location, crud):
         'Content-Type': 'application/json',
     }
 
+    otherHospitals = ['MidWsUnvMC','LakeMichMC','MidTwnUrgentC','PacNWHosED','SmvUrgentC']
+
     if location == 'BgCtyChldrnUrgntCar':
-        location = 'MidWsUnvMC'
+        rand = random.randint(0, 4)
+        location = otherHospitals[rand]
     elif location == 'SthrnMdwstMedCntr':
-        location = 'LakeMichMC'
+        rand = random.randint(0, 4)
+        location = otherHospitals[rand]
     elif location == 'WstrnRgnlMedCntr':
-        location = 'MidTwnUrgentC'
-    elif location == 'MSG.51':
-        location = 'LakeMichMC'
+        rand = random.randint(0, 4)
+        location = otherHospitals[rand]
+    elif 'MSG' in location:
+        rand = random.randint(0, 4)
+        location = otherHospitals[rand]
     elif location == 'G':
-        location = 'SthrnMdwstMedCntr'
+        rand = random.randint(0, 4)
+        location = otherHospitals[rand]
 
     if crud == 'ADT_A01':
         data = '{"$increment":{"openBeds":1}}'

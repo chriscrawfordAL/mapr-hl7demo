@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Facilities Manager</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="banner">
+        <h1>Midtown Urgent Center Facilities Manager</h1>
+    </div>
+
+    <div class="graph">
+        <div class="canvas">
+
+        </div>
+
+        <script src="https://d3js.org/d3.v5.js"></script>
+        <script src="js/d3index.js"></script>
+
+
+        <div class="otherData">
+            
+            <div class="otherData-title">
+                    Current ER Wait Times 
+            </div>
+            <div class="otherData-text">
+                7 min
+            </div>
+
+            <div class="otherData-title">
+                    Rooms Ready
+            </div>
+            <div class="otherData-text" id="openBeds">
+                    <script type="module">
+    
+                            var inter = async function getMessagesCount() {
+                                const beds = 'http://localhost:1337/';
+                                try {
+                                    const result = await fetch(`${beds}`)
+                                        .then(function(res) {
+                                            return res.json();
+                                        });
+                                    //console.log(result);
+                                    let midTownBeds = result.returnElements.find(item => item._id == "MidTwnUrgentC");
+                                    //console.log(midTownBeds);
+                                    document.getElementById("openBeds").innerHTML = midTownBeds.openBeds;
+                                } catch(error) {
+                                    console.log(error);
+                                    return 1;
+                                }
+                                return 0;
+                            }
+                            setInterval(inter, 5000);
+                        </script>
+            </div>
+
+
+            <div class="otherData-title">
+                    Waiting to Be Cleaned
+            </div>
+
+            <div class="otherData-text">
+                    2
+            </div>
+        
+                <div class="otherData-title">
+                        Avg. Room Cleaning Time
+                </div>
+                
+                <div class="otherData-text">
+                    63 min
+                </div>
+        
+                <div class="otherData-title">
+                        Staff on Duty
+                </div>
+        
+                <div class="otherData-text">
+                    8
+                </div>
+        </div>
+
+        </div>
+
+        <div class="facilities-container">
+                <div class="room">Room Number</div>
+                <div class="occupied">Occupied</div>
+                <div class="leaving-today">Scheduled to Leave Today</div>
+                <div class="ready-to-be-cleaned">Ready to Be Cleaned</div>
+                <div class="cleaning">Cleaning</div>
+                <div class="ready">Ready</div>
+            </div>
+            
+            <div class="facilities-container">
+                    <div class="room">1</div>
+                    <div class="occupied">YES</div>
+                    <div class="leaving-today">YES</div>
+                    <div class="ready-to-be-cleaned">NO</div>
+                    <div class="cleaning">NO</div>
+                    <div class="ready">NO</div>
+            </div>
+    
+            <div class="facilities-container">
+                    <div class="room">2</div>
+                    <div class="occupied">NO</div>
+                    <div class="leaving-today">NO</div>
+                    <div class="ready-to-be-cleaned">NO</div>
+                    <div class="cleaning">NO</div>
+                    <div class="ready">YES</div>
+            </div>
+    
+            <div class="facilities-container">
+                    <div class="room">3</div>
+                    <div class="occupied">NO</div>
+                    <div class="leaving-today">NO</div>
+                    <div class="ready-to-be-cleaned">YES</div>
+                    <div class="cleaning">NO</div>
+                    <div class="ready">NO</div>
+            </div>  
+    
+            <div class="facilities-container">
+                    <div class="room">4</div>
+                    <div class="occupied">NO</div>
+                    <div class="leaving-today">YES</div>
+                    <div class="ready-to-be-cleaned">YES</div>
+                    <div class="cleaning">YES</div>
+                    <div class="ready">NO</div>
+            </div> 
+    
+
+        <div id="managers">
+            <p><a href="index.html">Home</a>
+            <a href="floor.html">Floor Manager</a>
+            <a href="er_manager.html">ER Manager</a></p>
+        </div>
+    
+    
+
+</body>
+</html>
